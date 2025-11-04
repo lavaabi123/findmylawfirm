@@ -28,6 +28,7 @@ class Filters extends BaseConfig
         'check-admin' => \App\Filters\CheckAdmin::class,
         'isMaintenance' => \App\Filters\Maintenance::class,
         'secure-api'     => \App\Filters\SecureAPI::class,
+		'passwordprotect' => \App\Filters\PasswordProtect::class,
     ];
 
     /**
@@ -37,7 +38,7 @@ class Filters extends BaseConfig
      * @var array
      */
     public $globals = [
-        'before' => [
+        'before' => ['passwordprotect',
             // 'honeypot',
             'csrf' => ['except' => ['vr-run-internal-cron','Providerauth/*','Providersearch/*','submit-contact','contact/*', 'api/*', 'emails/*','common/*','cron/*']],
             // 'invalidchars',
