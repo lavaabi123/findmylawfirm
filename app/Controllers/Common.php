@@ -19,6 +19,19 @@ class Common extends BaseController
     protected $cityModel;
     protected $userModel;
     protected $emailTemplatesModel;
+    protected $GeneralSettingModel;
+    protected $categoriesModel;
+    protected $EmailModel;
+    public $session; 
+    public $segment; 
+    public $db; 
+    public $validation; 
+    public $encrypter; 
+    public $lang_base_url;
+    public $selected_lang;
+    public $general_settings;
+    public $agent;
+    public $analytics;
 
     public function __construct()
     {

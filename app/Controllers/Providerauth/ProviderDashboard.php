@@ -21,6 +21,24 @@ use Stripe\PaymentIntent;
 
 class ProviderDashboard extends ProviderauthController
 {
+	protected $UsersModel;
+    protected $userModel;
+    protected $CategoriesModel;
+    protected $PlansModel;
+    protected $CityModel;
+    protected $EmailModel;
+    protected $OfferingModel;
+    protected $CategoriesSkillsModel;
+    protected $ClientTypesModel;
+    public $session; 
+    public $segment; 
+    public $db; 
+    public $validation; 
+    public $encrypter; 
+    public $lang_base_url;
+    public $selected_lang;
+    public $general_settings;
+    public $agent;
 	
     public function index()
     {

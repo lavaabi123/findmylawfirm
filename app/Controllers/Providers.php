@@ -13,6 +13,21 @@ use App\Models\EmailModel;
 
 class Providers extends BaseController
 {
+    protected $CategoriesModel;
+    protected $UsersModel;
+    protected $CityModel;
+    protected $CategoriesSkillsModel;
+    protected $ClientTypesModel;
+    protected $OfferingModel;
+    public $session; 
+    public $segment; 
+    public $db; 
+    public $validation; 
+    public $encrypter; 
+    public $lang_base_url;
+    public $selected_lang;
+    public $general_settings;
+    public $agent;
     public function index()
     {
 		$data = array();
@@ -162,12 +177,17 @@ class Providers extends BaseController
 			//$state_id = $this->CityModel->get_state_by_code($state);
 			//$location_id_arr = $this->CityModel->get_cities_by_state_city($state_id[0]['id'],$city);
 			$location_id_arr = $this->CityModel->get_id_by_zipcode($uri->getSegment(env('urlsegment')));
-			$location_id = $location_id_arr[0]['id'];
-			$query2 =  $this->UsersModel->db->query("UPDATE users SET zipcode_count = zipcode_count + 1 WHERE location_id = ".$location_id);
+			$location_id = !empty($location_id_arr[0]['id']) ? $location_id_arr[0]['id'] : '';
+			if(!empty($location_id_arr[0]['id'])){
+				$query2 =  $this->UsersModel->db->query("UPDATE users SET zipcode_count = zipcode_count + 1 WHERE location_id = ".$location_id);
+			}
 			$user_latitude = !empty($this->session->get('user_latitude')) ? $this->session->get('user_latitude') : '';
 			$user_longitude = !empty($this->session->get('user_longitude')) ? $this->session->get('user_longitude') : '';
 			$user_zipcode = !empty($this->session->get('user_zipcode')) ? $this->session->get('user_zipcode') : '';
+			if(!empty($location_id_arr[0]['id'])){
+				
 			$query2 =  $this->UsersModel->db->query("INSERT INTO website_stats (zipcode_count,zipcode_search,location_id,customer_lat,customer_long,customer_zipcode) VALUES (1,".$location_name.",".$location_id.",'".$user_latitude."','".$user_longitude."','".$user_zipcode."')");
+			}
 		}
 		if($uri->getTotalSegments() >= env('urlsegment') && $uri->getSegment(env('urlsegment')) == 'all') {
 			$location_id = 'all';

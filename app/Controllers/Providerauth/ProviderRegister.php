@@ -13,6 +13,22 @@ use App\Models\CategoriesSkillsModel;
 
 class ProviderRegister extends ProviderauthController
 {
+    protected $userModel;
+    protected $UsersModel;
+    protected $CityModel;
+    protected $CategoriesModel;
+    protected $ClientTypesModel;
+    protected $CategoriesSkillsModel;
+    protected $EmailModel;
+    public $session; 
+    public $segment; 
+    public $db; 
+    public $validation; 
+    public $encrypter; 
+    public $lang_base_url;
+    public $selected_lang;
+    public $general_settings;
+    public $agent;
     public function index()
     {
 		
