@@ -1,0 +1,150 @@
+#-------------------------
+# Operating Specific Junk Files
+#-------------------------
+
+# OS X
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# OS X Thumbnails
+._*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# Linux
+*~
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+#-------------------------
+# Environment Files
+#-------------------------
+# These should never be under version control,
+# as it poses a security risk.
+.env
+.vagrant
+Vagrantfile
+
+#-------------------------
+# Temporary Files
+#-------------------------
+writable/cache/*
+!writable/cache/index.html
+
+writable/logs/*
+!writable/logs/index.html
+
+writable/session/*
+!writable/session/index.html
+
+writable/uploads/*
+!writable/uploads/index.html
+
+writable/debugbar/*
+
+php_errors.log
+
+#-------------------------
+# User Guide Temp Files
+#-------------------------
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+
+#-------------------------
+# Test Files
+#-------------------------
+tests/coverage*
+
+# Don't save phpunit under version control.
+phpunit
+
+#-------------------------
+# Composer
+#-------------------------
+/vendor/
+
+
+#-------------------------
+# IDE / Development Files
+#-------------------------
+
+# Modules Testing
+_modules/*
+
+# phpenv local config
+.php-version
+
+# Jetbrains editors (PHPStorm, etc)
+.idea/
+*.iml
+
+# Netbeans
+nbproject/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+.nb-gradle/
+
+# Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+.phpintel
+/api/
+
+# Visual Studio Code
+.vscode/
+
+/results/
+/phpunit*.xml
+/.phpunit.*.cache
+
+ceklissatu-34a6f1eb7d85.json
+ceklissatu-89fb31f8a165.p12
+
+uploads/images/
+uploads/profile/
+uploads/userimages/
+/uploads/userimages/11/471663105_1687267142_6491a7466b4ae_watch.png
+/uploads/userimages/11/1736547574_1687286328_6491f23883cc1_airplane.png
+/uploads/userimages/11/1898227875_1687296893_64921b7d0a471_fruits.png
+/uploads/userimages/14/1648546253_1687287140_6491f5644f4b6_tulips.png
+/uploads/userimages/14/795477333_1687287127_6491f5576dd91_pool.png
+/uploads/userimages/11/1505437984_1687462454_6494a23649a84_fruits.png
+/uploads/userimages/11/1745153683_1687460193_6494996113d23_frymire.png
+/uploads/userimages/11/1815867418_1687462513_6494a2715eab9_arctichare.png
+/uploads/userimages/11/575859635_1687463335_6494a5a79a83f_barbara.png
+/uploads/userimages/11/706443925_1687463046_6494a4861b780_boat.png
+/uploads/userimages/1/1395487000_1687796789_6499bc35a9e11_logo-3 (1).png
+/uploads/userimages/15/1530689178_1687796646_6499bba6a378d_logo-3 (1).png
+/uploads/userimages/14/140730479_1688549916_64a53a1ced425_barbara.png
+/uploads/userimages/14/1856484338_1688549929_64a53a29491ee_watch.png
+/uploads/userimages/14/2024841802_1688549936_64a53a304acd3_arctichare.png
+/uploads/userimages/14/510416967_1688549921_64a53a2160f6b_boat.png
