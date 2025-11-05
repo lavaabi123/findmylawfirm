@@ -22,7 +22,7 @@ class Register extends AuthController
     {
         $this->is_registration_active();
 
-        if ($this->session->get('vr_sess_logged_in') == TRUE) {
+        if ($this->session->get('admin_sess_logged_in') == TRUE) {
             return redirect()->to(base_url('/'));
         }
 

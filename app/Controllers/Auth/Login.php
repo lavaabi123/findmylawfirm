@@ -24,11 +24,20 @@ class Login extends AuthController
     public $analytics;
     public function index()
     {
-        if ($this->session->get('vr_sess_logged_in') == TRUE) {
-            return redirect()->to(base_url('/'));
+        if ($this->session->get('admin_sess_logged_in') == TRUE) {
+			if ($this->session->get('admin_sess_user_role') != 2) {
+				return redirect()->to(base_url('/admin/dashboard'));
+			}else{
+				return redirect()->to(base_url('/'));				
+			}
         }
 
         $data['title'] = trans('login');
+		
+		if (!empty($_COOKIE['remember_admin_email']) && !empty($_COOKIE['remember_admin_pass'])) {
+			$data['remember_admin_email'] = base64_decode($_COOKIE['remember_admin_email']);
+			$data['remember_admin_pass']  = base64_decode($_COOKIE['remember_admin_pass']);
+		}
 
         return view('Auth/Login', $data);
     }
@@ -78,7 +87,6 @@ class Login extends AuthController
                     return redirect()->to(admin_url())->withCookies();
                 }                
             } else {
-
                 return redirect()->back()->withInput();
             }
         } else {
@@ -94,13 +102,14 @@ class Login extends AuthController
     public function Logout()
     {
         //unset user data
-        $this->session->remove('vr_sess_user_id');
-        $this->session->remove('vr_sess_user_email');
-        $this->session->remove('vr_sess_user_role');
-        $this->session->remove('vr_sess_logged_in');
-        $this->session->remove('vr_sess_app_key');
-        $this->session->remove('vr_sess_user_ps');
-        helper_deletecookie("remember_user_id");
+        $this->session->remove('admin_sess_user_id');
+        $this->session->remove('admin_sess_user_email');
+        $this->session->remove('admin_sess_user_role');
+        $this->session->remove('admin_sess_logged_in');
+        $this->session->remove('admin_sess_app_key');
+        $this->session->remove('admin_sess_user_ps');
+        helper_deletecookie("remember_user_id_admin");
+        helper_deletecookie("_remember_user_id_admin");
         return redirect()->to('/');
     }
 

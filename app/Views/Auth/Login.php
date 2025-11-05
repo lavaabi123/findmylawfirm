@@ -35,6 +35,7 @@
             <div class="card-body">
 
                 <?php echo $this->include('Common/_messages') ?>
+            <?php echo $this->include('admin/includes/_messages') ?>
                 <form id="form_safe" action="<?php echo base_url(); ?>/auth/login-post" method="post">
                     <?php echo csrf_field() ?>
                     <div class="input-group mb-3">
