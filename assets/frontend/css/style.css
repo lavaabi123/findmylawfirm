@@ -552,13 +552,13 @@ svg.ioniconswhites {
 	--rt-light-gray: #f7f7f7;
 	--rt-dgray: #ededed;
 	--rt-black: #000000;
-	--rt-blue: #ff6c00;
+	--rt-blue: #232e4c;
 	--rt-blue2: #AA6AE6;
 	--rt-dark-blue: #000000;
-	--rt-orange: #ff6c00;
+	--rt-orange: #232e4c;
 	--rt-dark-orange: #e46100;
 	--rt-green: #16a99c;
-	--rt-grey: #7a7a7a;
+	--rt-grey: #828282;
 	--rt-gradient: linear-gradient(to right, var(--rt-blue), var(--rt-blue2))
 }
 body {
@@ -596,7 +596,7 @@ body {
 	background: var(--rt-orange) !important;
 }
 .bg-gradient {
-    background: linear-gradient(to right, #808080, #ff6c00) !important;
+    background: linear-gradient(to right, #808080, #232e4c) !important;
 }
 h3 {
     font-weight: 900;
@@ -647,7 +647,7 @@ ul.listStyle {
     margin: -10px auto 0;
 }
 .blue, .btn {
-	background: var(--rt-dark-blue);
+	background: var(--rt-blue);
 	color: var(--rt-white);
 	/*transition: all 0.5s linear 0.3s;
 	-webkit-transition: all 0.5s linear 0.3s;*/
@@ -655,11 +655,13 @@ ul.listStyle {
 .btn-black {
 	background: var(--rt-black);
 }
-
+.btn-gray {
+	background: var(--rt-grey);
+}
 .btn:hover, .blue:hover, .login-sec .wizard>.actions a, .yellowbtn,
 .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active,
- #navbarCollapse li.nav-item a.btn.yellowbtn {
-	background: var(--rt-orange) !important;
+ #navbarCollapse li.nav-item a.btn.yellowbtn, .btn-gray:hover {
+	background: var(--rt-black) !important;
 	color: var(--rt-white) !important;
 }
 .btn-black:hover {
@@ -974,7 +976,7 @@ footer {
     background: var(--rt-orange);
 }
 .copyrights {
-	background: var(--rt-dark-orange);
+	background: var(--rt-black);
 	color: var(--rt-white);
     font-size: 12px;
 }
@@ -1303,7 +1305,7 @@ svg.ionicons {
 	padding-top: 74.25%;
     border-radius: 25px;
     overflow: hidden;
-    background: #ededed;
+    background: var(--rt-blue);
     width: 100%;
     border: 1px solid #eee
 }
@@ -1398,6 +1400,7 @@ svg.ionicons {
 }
 .testimonial .col img {
     margin: 25px 0 35px;
+	max-width: 245px;
 }
 .testimonial .col h6 {
 	margin-top: 15px;
@@ -1412,8 +1415,8 @@ svg.ionicons {
     font-size: 16px !important;
 }
 .wbprovider {
-	background:  url(../images/providerbg.jpg) no-repeat left top / cover;
-     padding: calc(10vw + 30px) !important;
+	background: var(--rt-dgray);
+     padding: calc(6vw + 30px) !important;
 }
 
 /** Find Providers **/
@@ -2365,43 +2368,14 @@ body div:where(.swal2-container.callmePopup) .swal2-html-container {
 }
 .bg-popular-cities {
     position: relative;
+	background: url(../images/pattern.png) repeat center / 21px;
 }
 .bg-popular-cities .container {
     z-index: 9;
     position: relative;
-    background: linear-gradient(to left, #ededed, transparent);
-}
-.bg-popular-cities:before {
-    content: "";
-    background-image: url(../images/dogleft.png);
-        position: absolute;
-    display: block;
-    left: calc(18% - 380px);
-    height: 100%;
-    bottom: 0;
-    width: 92%;
-    background-repeat: no-repeat;
-    z-index: 0;
-    mix-blend-mode: multiply;
-    background-size: auto 100%;
-}
-.bg-popular-cities .container:after {
-	content:"";
-	background-image: url(../images/dogright.png);
-	    position: absolute;
-    display: block;
-    right: 0;
-    height: 112%;
-    bottom: 0;
-    width: 100%;
-    background-repeat: no-repeat;
-    z-index: 0;
-    mix-blend-mode: darken;
-    background-size: auto 100%;
-    background-position: bottom right;
 }
 .withShadow {
-    box-shadow: 15px 30px 0px #ff6c00;
+    box-shadow: 15px 30px 0px #232e4c;
 }
 .btnWicon {
 	display: flex;
@@ -2443,14 +2417,6 @@ img.img-fluid.searchIcon {
 	}
 }
 @media (max-width:767px) {
-	.bg-popular-cities:before {
-    left: 0;
-    height: 110px;
-}
-.bg-popular-cities .container:after {
-    height: 160px;
-    bottom: 75%;
-}
 .tick.list-unstyled {
     padding-left: 40px;
 }
@@ -2518,7 +2484,7 @@ footer a.btn.bg-black.minbtn:hover {
     list-style: disc;
 }
 .blog_content a span{
-    color : #ff6c00 !important;
+    color : #232e4c !important;
 }
 .recent-posts {
 	top: 13rem;
@@ -2531,7 +2497,7 @@ footer a.btn.bg-black.minbtn:hover {
 .status-circle {
 	width: calc(100% - 1.5rem);
     border-radius: 0px 0 100px 100px;
-    background: #ff6c00;
+    background: #232e4c;
     bottom: 0;
     position: absolute;
     color: #fff;

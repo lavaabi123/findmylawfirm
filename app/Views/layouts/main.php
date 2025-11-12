@@ -209,20 +209,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<a class="nav-link active" aria-current="page" href="<?= base_url('/') ?>">Home</a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link" href="<?= base_url('/about-us') ?>">About Us</a>
+				<a class="nav-link" href="<?= base_url('/providers') ?>">Find a Law Firm </a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link" href="<?= base_url('/providers') ?>">Find a Groomer</a>
+				<a class="nav-link" href="<?= base_url('/about-us') ?>">About Us</a>
 			  </li>
 			  <li class="nav-item">
 				<a class="nav-link" href="<?= base_url('/faq') ?>">FAQs</a>
 			  </li>
-			  <li class="nav-item">
+			  <!--<li class="nav-item">
 				<a class="nav-link" href="<?= base_url('/how-it-works') ?>">How It Works</a>
 			  </li>
 			  <li class="nav-item">
 				<a class="nav-link" href="<?= base_url('/blog') ?>">Blog</a>
-			  </li>
+			  </li>-->
 			  <li class="nav-item d-block d-sm-none">
 				<?php if (session()->get('vr_sess_logged_in') != TRUE) : ?>
 				<a class="nav-link" href="<?= base_url('providerauth/login') ?>"><svg class="me-1" style="fill:#000000a6;align-items: center;" width="20" height="20"><use xlink:href="#people-circle"></use></svg>Login</a>
@@ -236,7 +236,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 			<?php if (session()->get('vr_sess_logged_in') != TRUE) : ?>
 			  <li class="nav-item d-none d-sm-block">
-				<a class="btn bg-orange" href="<?php echo base_url('pricing'); ?>">BECOME  A GROOMER</a>
+				<a class="btn bg-orange" href="<?php echo base_url('pricing'); ?>">LIST YOUR LAW FIRM</a>
 			  </li>
 			  <?php else : ?>
 				<li class="nav-item d-none d-sm-block">			  
@@ -268,14 +268,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<ul class="unstyled-list d-flex align-items-center justify-content-center gap-3 my-4 text-white">
 				<li><a href="<?= base_url('/terms') ?>">Terms and Conditions</a></li> |
 				<li><a href="<?= base_url('/privacy') ?>">Privacy Policy</a></li> |
-				<li><a href="<?= base_url('/how-it-works') ?>">How it Works</a></li> |
-				<li><a href="<?= base_url('/blog') ?>">Blog</a></li> |
+				<!--<li><a href="<?= base_url('/how-it-works') ?>">How it Works</a></li> |
+				<li><a href="<?= base_url('/blog') ?>">Blog</a></li> |-->
 				<li><a href="<?= base_url('/contact') ?>">Contact Us</a></li>
 			</ul>
-			<a href="<?= base_url('/providers') ?>" class="btn bg-black minbtn">Find My Groomer</a>
+			<a href="<?= base_url('/providers') ?>" class="btn btn-gray minbtn">Find a Law Firm</a>
 		</div>
         <div class="copyrights py-3 text-center">
-			<div class="container">			<?php if (!empty(get_general_settings()->facebook_url) && get_general_settings()->facebook_url != '#') : ?>						
+			<div class="container">		<!--<?php if (!empty(get_general_settings()->facebook_url) && get_general_settings()->facebook_url != '#') : ?>						
 			<a href="<?php echo html_escape(get_general_settings()->facebook_url); ?>" target="_blank">	
 				<img src="<?php echo base_url('assets/img/fb.png'); ?>" />	
 			</a>					
@@ -309,9 +309,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<a href="<?php echo html_escape(get_general_settings()->youtube_url); ?>" target="_blank">
 				<img src="<?php echo base_url('assets/img/youtube.png'); ?>" />					
 			</a>						
-			<?php endif; ?>	
+			<?php endif; ?>	-->
 
-				<p class="mb-0">Copyright &copy; <?= date('Y') ?> Find My Groomer, All rights Reserved</p>
+				<p class="mb-0">Copyright &copy; <?= date('Y') ?> Find My Law Firm. All Rights Reserved.</p>
 				<!--<p class="mb-0">Designed and Developed by: <a href="https://royalinkdesign.com/" target="_blank">Royal Ink</a></p>-->
 			</div>
         </div>

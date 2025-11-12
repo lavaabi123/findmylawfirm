@@ -19,14 +19,14 @@
 }
 .blogs .col > div {
     height: 100%;
-    border-radius: 8px 8px 8px 8px;
+    border-radius: 25px;
     padding: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;box-shadow:1px 4px 12px -2px rgba(0,0,0,.14);
 }
 .blogs .col img {
-    border-radius: 8px 8px 0 0;
+    border-radius: 25px 25px 0 0;
     object-fit: contain;
 }
 .blogs .col h6 {
@@ -38,7 +38,7 @@
     text-align : left;min-height: 180px;
 }
 </style>
-<div class="searchSec py-sm-5" style="margin-top:7rem;">
+<div class="searchSec py-sm-5" style="margin-top:5.5rem;">
 
 	<div class="container-fluid py-sm-5">
 
@@ -46,7 +46,7 @@
 
 			<div class="col col-sm-6 offset-sm-6 form-section mt-2">
 
-				<h3 class="title-xl black">Find a Dog Groomer <br />near you!</h3>
+				<h3 class="title-xl black">Find the right <br/>Law Firm near you. </h3>
 
 				<p class="title-sm text-grey mb-sm-5 fw-bold">We make it Easy to make the Best decision.</p>
 
@@ -82,7 +82,7 @@
 
 						</select>
 
-						<input type='submit' value='Search' class='btn yellowbtn'>
+						<input type='submit' value='Search' class='btn'>
 
 					</div>
 
@@ -109,14 +109,14 @@ Massage Therapists • Personal Trainers • Yoga Instructors • Chiropractors 
 	<div class="container py-5">	
 		<div class="wrapper filterResult featuredgrommers_ajax" id="demo">
 
-		  <h3 class="title-md text-center mb-3 mb-sm-4 black">Featured Groomers</h3>
+		  <h3 class="title-md text-center mb-3 mb-sm-4 black">Featured Law Firms</h3>
 
 			<div class="owl-carousel-load">
 			
 
 			</div>
 			<div class="row justify-content-center">
-			<a href="<?php echo base_url('/providers'); ?>" class="btn bg-black minbtn mt-3 mt-sm-5">Find My Groomer</a>
+			<a href="<?php echo base_url('/providers'); ?>" class="btn minbtn mt-3 mt-sm-5">Find My Law Firm</a>
 			</div>
 		</div>
 	</div>
@@ -125,7 +125,7 @@ Massage Therapists • Personal Trainers • Yoga Instructors • Chiropractors 
 	</div>		
 	<?php } ?>
 
-<div class="bg-dgray bg-popular-cities">
+<div class="bg-popular-cities">
 
 	<div class="container">
 
@@ -245,7 +245,7 @@ Massage Therapists • Personal Trainers • Yoga Instructors • Chiropractors 
 
 		</div>
 
-		<a href="<?php echo base_url('/testimonials'); ?>" class="btn bg-black minbtn mt-3 mt-sm-5">View All</a>
+		<a href="<?php echo base_url('/testimonials'); ?>" class="btn btn-gray minbtn mt-3 mt-sm-5">View All</a>
 
 	</div>
 
@@ -255,15 +255,15 @@ Massage Therapists • Personal Trainers • Yoga Instructors • Chiropractors 
 
 	<div class="container py-sm-3 d-flex flex-column">
 
-		<h3 class="title-md mb-0 mb-sm-2 text-black">Ready to sign up as a groomer?</h3>
+		<h3 class="title-md mb-0 mb-sm-2 text-black">Ready to list your Law Firm?</h3>
 
 		<p class="title-xs text-grey fw-bold">It’s easy and you can make a profile absolutely FREE!</p>
 
 		<div class="d-flex justify-content-center gap-3 mt-4">
 
-			<a href="<?php echo base_url('/pricing'); ?>" class="btn yellowbtn minbtn">Become a Groomer</a>
+			<a href="<?php echo base_url('/pricing'); ?>" class="btn minbtn">LIST YOUR LAW FIRM</a>
 
-			<a href="<?php echo base_url('/how-it-works'); ?>" class="btn bg-black minbtn">How It Works</a>
+			<a href="<?php echo base_url('/how-it-works'); ?>" class="btn minbtn">How It Works</a>
 
 		</div>
 
@@ -290,7 +290,7 @@ Massage Therapists • Personal Trainers • Yoga Instructors • Chiropractors 
 		<?php } ?>
 
 		</div>
-		<a href="<?php echo base_url('/blog'); ?>" class="btn bg-black minbtn mt-3 mt-sm-5">View All</a>
+		<a href="<?php echo base_url('/blog'); ?>" class="btn minbtn mt-3 mt-sm-5">View All</a>
 	</div>
 
 </div>
@@ -424,7 +424,7 @@ Massage Therapists • Personal Trainers • Yoga Instructors • Chiropractors 
 				
 				$(".testimonial-carousel").owlCarousel({
 					loop:false,
-					margin:10,
+					margin:20,
 					nav:true,
 					responsive:{
 						0:{

@@ -18,6 +18,7 @@ class ProviderRegister extends ProviderauthController
     protected $CityModel;
     protected $CategoriesModel;
     protected $ClientTypesModel;
+    protected $OfferingModel;
     protected $CategoriesSkillsModel;
     protected $EmailModel;
     public $session; 
