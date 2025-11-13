@@ -477,7 +477,7 @@ label#postcode-error, label#locality-error {
 						<h4 class="title-sm dblue mt-3 mt-lg-5 border-bottom"><?php echo trans('A Little About Me') ?>:</h4>
 						<div class="form-section row row-cols-1 row-cols-md-2 dd">
 						<div class="form-group">
-							<label>Why Did I Become A Dog Groomer?</label>
+							<label>Why Did I Become A Law Firm?</label>
 							<textarea class="form-control required" name="question1"><?php echo $user_detail->question1; ?></textarea>
 						</div>
 						<div class="form-group">							

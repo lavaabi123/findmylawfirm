@@ -112,7 +112,7 @@ label#postcode-error, label#locality-error {
                         <h3></h3>
                         <fieldset class="form-input">
 						<div class="titleSec">
-							<h3 class="title-xl black mb-0"><?php echo trans('Sign Up as a Groomer') ?></h3>
+							<h3 class="title-xl black mb-0"><?php echo trans('Sign Up as a Law Firm') ?></h3>
 							<p class="text-grey fs-6"><?php echo trans('Get started for FREE with no obligation') ?></p>
 						</div>
 							<div class="form-section">
@@ -287,7 +287,7 @@ label#postcode-error, label#locality-error {
 							
 							<h4 class="title-md black mt-3 mt-lg-5">A Little About Me <i class="toolTipinfo" data-toggle="popover">i</i></h4>
 							<div class="form-group dd">
-								<label class="ques">Why Did I Become A Dog Groomer?</label>
+								<label class="ques">Why Did I Become A Law Firm?</label>
 							</div>
 							<div class="form-group mb-5">
 								<textarea class="form-control required" name="question1"></textarea>

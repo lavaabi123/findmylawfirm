@@ -8,7 +8,7 @@
     <div class="viewProfile bg-gray pt-2 pb-4 pb-xl-5">
         <?php echo $this->include('Common/_messages') ?>
 		<div class="titleSec text-center mb-0">
-			<h3 class="title-xl dblue mb-0"><?php echo ($search_location_name == '') ? 'Groomers' : 'Groomers within 1 miles of '.$search_location_name; ?></h3>
+			<h3 class="title-xl dblue mb-0"><?php echo ($search_location_name == '') ? 'Law Firms' : 'Law Firms within 1 miles of '.$search_location_name; ?></h3>
 		</div>
 		<div class="container">
 			<div class="row filterResult">
@@ -47,7 +47,7 @@
 				<?php } } }
 				
 				if($result == 0){
-					echo "No Groomers in this area, try another:";
+					echo "No Law Firms in this area, try another:";
 				}?>			
 			</div>
 		</div>

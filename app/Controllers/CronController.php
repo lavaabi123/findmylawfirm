@@ -558,7 +558,7 @@ class CronController extends BaseController
 						}
 					}
 					
-					$data['to_name'] = !empty($user->fullname) ? $user->fullname : 'Groomer';
+					$data['to_name'] = !empty($user->fullname) ? $user->fullname : 'Law Firm';
 					$data['subject'] = $data['to_name']." - Last Week's Snapshot on your FindMyLawFirm profile";
 					$data['to'] = $user->email;
 					$data['template_path'] = "email/weekly_report";
@@ -627,7 +627,7 @@ class CronController extends BaseController
 				if(!empty($user->email)){						
 					$data['subject'] = "Find My Law Firm - Reminder for Optimization";
 					$data['to'] = $user->email;
-					$data['to_name'] = !empty($user->fullname) ? $user->fullname : 'Groomer';
+					$data['to_name'] = !empty($user->fullname) ? $user->fullname : 'Law Firm';
 					$data['message_text'] = '<h5 style="text-align:center;">Hello, '.$user->fullname.'</h5><p style="color: #000000; font-size:11px;text-align:center; margin-bottom: 5px;">We are requesting you to complete your profile by adding Hours, About Us, Photos to appear in searches and get more customers. Thank you!';
 					$data['template_path'] = "email/admin/new_user";
 					

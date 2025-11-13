@@ -197,7 +197,7 @@ Dashboard content
                                 </div>
                                 <div class="col-md-4">
                                     <p class="text-center">
-                                        <strong>Groomer Plan</strong>
+                                        <strong>Law Firm Plan</strong>
                                     </p>
                                     <div class="chart">
                                         <canvas id="donutChart" height="300"></canvas>
@@ -221,7 +221,7 @@ Dashboard content
 					<div class="card custom-card" style="padding: 1rem 1.25rem">
 						<div class="card-header  justify-content-between">
 							<div class="card-title">
-								Top Groomers Locations
+								Top Law Firms Locations
 							</div>
 						</div>
 						<div class="card-body" style="font-size: 14px;">
@@ -233,7 +233,7 @@ Dashboard content
 										<div class="flex-fill">
 											<p class="fw-semibold mb-0" style="font-weight: 600!important;"><?php echo $top_location->city.', '.$top_location->state_code; ?></p>
 										</div>
-										<div class="fw-semibold fs-15"><?php echo $top_location->user_count.' Groomers'; ?></div>
+										<div class="fw-semibold fs-15"><?php echo $top_location->user_count.' Law Firms'; ?></div>
 									</div>
 								</li>
 							<?php } } ?>

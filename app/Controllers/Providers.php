@@ -265,13 +265,13 @@ class Providers extends BaseController
 			$data['offering'] = array();
 		}
 		
-		$data['title'] = trans('Groomers');
+		$data['title'] = trans('Law Firms');
 		$data['radius'] = $radius;
 		
 		$data['category'] = $category;
 		
 		
-		$data['meta_title'] = !empty(get_seo('Find a Law Firm')) ? get_seo('Find a Law Firm')->meta_title : 'Groomers las vegas | Dog law firms in las vegas';
+		$data['meta_title'] = !empty(get_seo('Find a Law Firm')) ? get_seo('Find a Law Firm')->meta_title : 'Law Firms las vegas | Dog law firms in las vegas';
 		$data['meta_desc'] = !empty(get_seo('Find a Law Firm')) ? get_seo('Find a Law Firm')->meta_description : "Find the perfect law firms in Las Vegas with Find My Law Firms' extensive listings. From mobile to the best in town, we've got you covered!";
 		$data['meta_keywords'] = !empty(get_seo('Find a Law Firm')) ? get_seo('Find a Law Firm')->meta_keywords : '';
 		

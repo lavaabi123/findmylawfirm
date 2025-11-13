@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title><?php echo !empty($meta_title) ? $meta_title : 'Find a Dog Groomer Near You!'; ?></title>
+    <title><?php echo !empty($meta_title) ? $meta_title : 'Find a Law Firm Near You!'; ?></title>
     <meta name="description" content="<?php echo !empty($meta_desc) ? $meta_desc : 'At findmylawfirm.com, our mission is to make the quest for the perfect law firm a seamless and trustworthy experience for people, while simultaneously helping law firms find loyal clientele and wonderful canine companions.'; ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="<?php echo base_url(); ?>/assets/img/favicon.ico" />
@@ -223,9 +223,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			  <li class="nav-item">
 				<a class="nav-link" href="<?= base_url('/blog') ?>">Blog</a>
 			  </li>
-			  <li class="nav-item">
+			  <!--<li class="nav-item">
 				<a class="nav-link" href="<?= base_url('/resoures') ?>">Resources</a>
-			  </li>
+			  </li> -->
 			  <li class="nav-item d-block d-sm-none">
 				<?php if (session()->get('vr_sess_logged_in') != TRUE) : ?>
 				<a class="nav-link" href="<?= base_url('providerauth/login') ?>"><svg class="me-1" style="fill:#000000a6;align-items: center;" width="20" height="20"><use xlink:href="#people-circle"></use></svg>Login</a>

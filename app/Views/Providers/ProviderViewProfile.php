@@ -369,7 +369,7 @@ if(!empty($user_detail->avatar)){
 						<?php } ?>
 					<!-- MESSAGE ME - START -->
 					<div id="contact-provider" class="providerMsg rounded-5 p-4 mt-4 mb-5" style="background: #f7f7f7;">
-					<h6 class="text-dark text-center">Message Your Groomer Directly</h6>
+					<h6 class="text-dark text-center">Message Your Law Firm Directly</h6>
 						<form action="" method="post" id="messageProviderForm" class="form-input mt-4">
 							<input type="hidden" id="userId" name="userId" value="<?php echo $userId;?>">
 							<div class="form-section">

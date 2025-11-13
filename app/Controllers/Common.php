@@ -403,9 +403,9 @@ class Common extends BaseController
             'to'                => $user_detail->email,
             'template_path'     => "email/email_to_provider",
         );
-		$message_admin        = "<b>Groomer(".$user_detail->business_name." - ".$user_detail->email.") received this message from a customer who visited their profile.</b><br><br>Name: ".$name."<br>Email: ".$email."<br>Phone: ".$phone."<br>Best way to reach you?:".$best_way."<br>Message:<br>".$userMessage;
+		$message_admin        = "<b>Law Firm(".$user_detail->business_name." - ".$user_detail->email.") received this message from a customer who visited their profile.</b><br><br>Name: ".$name."<br>Email: ".$email."<br>Phone: ".$phone."<br>Best way to reach you?:".$best_way."<br>Message:<br>".$userMessage;
 		$data_admin = array(
-            'subject'           => "Customer Contacted Groomer",//$subject,
+            'subject'           => "Customer Contacted Law Firm",//$subject,
             'message_text'      => $message_admin,
 			'from_email' => get_general_settings()->admin_email,
 			'to' => get_general_settings()->mail_reply_to,

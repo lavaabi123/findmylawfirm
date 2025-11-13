@@ -207,23 +207,9 @@ Massage Therapists • Personal Trainers • Yoga Instructors • Chiropractors 
 
 					<img src="<?= base_url('assets/frontend/images/stars.png') ?>">
 
-					<p>I stumbled upon FindMyLawFirm.com while searching for a reliable groomer for my furry friend. Thanks to this platform, I found a fantastic groomer who not only provides excellent service but also has flexible scheduling options. Finding availability has never been easier! Five stars for making pet grooming hassle-free.</p>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
 
-					<h6 class="black title-sm">- Susan V.</h6>
-
-				</div>
-
-			</div>
-
-			<div class="col item">
-
-				<div class="bg-white">
-
-					<img src="<?= base_url('assets/frontend/images/stars.png') ?>">
-
-					<p>FindMyLawFirm.com is a game-changer for pet owners. I discovered a skilled groomer on this platform, and the best part is the ease of finding appointment slots that fit my schedule. It's like having a personal grooming concierge for my pup. Highly recommended!</p>
-
-					<h6 class="black title-sm">- Mary S.</h6>
+					<h6 class="black title-sm">- Renee S.</h6>
 
 				</div>
 
@@ -235,9 +221,23 @@ Massage Therapists • Personal Trainers • Yoga Instructors • Chiropractors 
 
 					<img src="<?= base_url('assets/frontend/images/stars.png') ?>">
 
-					<p>I can't express how relieved I am to have found FindMyLawFirm.com. The platform not only connects you with top-notch groomers but also simplifies the process of scheduling appointments. My pup looks forward to grooming days, and I look forward to the stress-free experience using this site.</p>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
 
-					<h6 class="black title-sm">- Stephen M.</h6>
+					<h6 class="black title-sm">- Bonnie M.</h6>
+
+				</div>
+
+			</div>
+
+			<div class="col item">
+
+				<div class="bg-white">
+
+					<img src="<?= base_url('assets/frontend/images/stars.png') ?>">
+
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+
+					<h6 class="black title-sm">- Marshall C.</h6>
 
 				</div>
 
@@ -275,7 +275,7 @@ Massage Therapists • Personal Trainers • Yoga Instructors • Chiropractors 
 
 	<div class="container blogs">
 
-		<h3 class="title-md mb-3 mb-sm-3 pb-sm-3 text-dark">Blog</h3>
+		<h3 class="title-md mb-3 mb-sm-3 pb-sm-3 text-dark">Articles</h3>
 
 		<div class="owl-carousel blog-carousel owl-theme"  id="blog">
 		<?php  foreach($blogs as $blog){ ?>		

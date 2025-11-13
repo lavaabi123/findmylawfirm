@@ -795,7 +795,7 @@ class ProviderDashboard extends ProviderauthController
 					);
 					$emailModel->send_email($data);	
 					$data_admin = array(	
-						'subject' => "New Subscription by Groomer",
+						'subject' => "New Subscription by Law Firm",
 						'from_email' => get_general_settings()->admin_email,
 						'to' => get_general_settings()->mail_reply_to,
 						'message_text'  => $user_detail->business_name.' - '.$user_detail->email. ' has been created new subscription(Stripe).',
@@ -1446,7 +1446,7 @@ class ProviderDashboard extends ProviderauthController
 				);
 				$emailModel->send_email($datae);
 				$data_admin = array(	
-					'subject' => "New Subscription by Groomer",
+					'subject' => "New Subscription by Law Firm",
 					'from_email' => get_general_settings()->admin_email,
 					'to' => get_general_settings()->mail_reply_to,
 					'message_text'  => $user_detail->business_name.' - '.$user_detail->email. ' has been created new subscription(Paypal).',

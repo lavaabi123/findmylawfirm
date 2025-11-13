@@ -20,7 +20,7 @@
             <div class="row mb-2">
                 <div class="col-sm-6">
                   <h1 class="m-0"><?php echo $title ?> 
-                    <a class="btn btn-primary" href="<?php echo admin_url() . 'providers/add-provider/'; ?>"><?php echo trans('Add Groomer'); ?></a>
+                    <a class="btn btn-primary" href="<?php echo admin_url() . 'providers/add-provider/'; ?>"><?php echo trans('Add Law Firm'); ?></a>
                   </h1>                     
                 </div><!-- /.col -->
                 <div class="col-sm-6">

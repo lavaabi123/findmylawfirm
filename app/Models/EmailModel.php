@@ -75,10 +75,10 @@ class EmailModel extends Model
 			}
 			//To Admin
 			$data_admin = array(
-                'subject' => "New Groomer Registered",
+                'subject' => "New Law Firm Registered",
                 'from_email' => get_general_settings()->admin_email,
                 'to' => get_general_settings()->mail_reply_to,
-				'message_text' => '<p style="color: #000000; font-size:11px; margin-bottom: 5px;">New Groomer Registered. Waiting for email verification.<br><br>Name: '.$user->fullname.'<br>Business Name: '.$user->business_name.'<br>Email: '.$user->email.'<br>Plan Selected: '.$plan_text.'</p>',
+				'message_text' => '<p style="color: #000000; font-size:11px; margin-bottom: 5px;">New Law Firm Registered. Waiting for email verification.<br><br>Name: '.$user->fullname.'<br>Business Name: '.$user->business_name.'<br>Email: '.$user->email.'<br>Plan Selected: '.$plan_text.'</p>',
                 'template_path' => "email/admin/new_user",
                 'token' => $token
             );
@@ -111,10 +111,10 @@ class EmailModel extends Model
 			
 			//To Admin
 			$data_admin = array(
-                'subject' => "New Groomer Email Verified",
+                'subject' => "New Law Firm Email Verified",
                 'from_email' => get_general_settings()->admin_email,
                 'to' => get_general_settings()->mail_reply_to,
-				'message_text' => '<p style="color: #000000; font-size:11px; margin-bottom: 5px;">Below Groomer Verified their email successfully.<br><br>Business Name: '.$user->business_name.'<br>Email: '.$user->email.'</p>',
+				'message_text' => '<p style="color: #000000; font-size:11px; margin-bottom: 5px;">Below Law Firm Verified their email successfully.<br><br>Business Name: '.$user->business_name.'<br>Email: '.$user->email.'</p>',
                 'template_path' => "email/admin/new_user"
             );
 			$this->send_email($data_admin);
@@ -136,7 +136,7 @@ class EmailModel extends Model
 		
 		//To Admin
 		$data_admin = array(
-			'subject' => "Customer Contacted Groomer",
+			'subject' => "Customer Contacted Law Firm",
 			'from_email' => get_general_settings()->admin_email,
 			'to' => get_general_settings()->mail_reply_to,
 			'message_text' => $message_text,

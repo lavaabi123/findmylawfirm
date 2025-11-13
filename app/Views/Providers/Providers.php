@@ -37,7 +37,7 @@ function radio($name, $val){
     <div class="fb-filter bg-gray pt-4 pt-sm-5 pb-4 pb-xl-5">
         <?php echo $this->include('Common/_messages') ?>
 		<div class="container">
-			<h3 class="title-md text-black text-center">Find a Dog Groomer near you!</h3>
+			<h3 class="title-md text-black text-center">Find a Law Firm near you!</h3>
 			<form class="form-input mb-5 mb-sm-1" id="search-form">
 				<div class="form-section row align-items-end justify-content-center my-3 my-sm-5">
 					<!--<div class="col-3 form-group">
@@ -106,7 +106,7 @@ function radio($name, $val){
 				<div class='advancedOptions form-section' style='display: none'>
                     <div class="row mt-3 mt-sm-5">
                         <div class="col-12">
-							 <h4 class="border-bottom dblue pb-2 mb-3 mt-3">Only show Groomers</h4>
+							 <h4 class="border-bottom dblue pb-2 mb-3 mt-3">Only show Law Firms</h4>
 							 <div class="form-group row row-cols-1 row-cols-md-3 row-cols-xl-4">
 								<label class="col"><input type='checkbox' data-urlkey="hasPhoto" data-url="hasPhoto=1" <?php echo checkbox('hasPhoto'); ?> class='filterOpt' > With Photo</label>
 								<label class="col"><input type='checkbox' data-urlkey="availableNow" data-url="availableNow=1" <?php echo checkbox('availableNow'); ?> class='filterOpt' > Available Now</label>
@@ -168,15 +168,15 @@ function radio($name, $val){
 			echo '<h3 class="title-md text-center mb-3 mb-sm-5 mt-3 mt-sm-5 dblue">';
 			echo 'Featured';
 			if(!empty($search_location_name) && empty($categories[0]['name'])){
-				echo ' Groomers - '.$search_location_name;
+				echo ' Law Firms - '.$search_location_name;
 			}else if(empty($search_location_name) && !empty($categories[0]['name'])){
-				echo ' Groomers';
+				echo ' Law Firms';
 			}else if(empty($search_location_name) && empty($categories[0]['name']) && (array_key_exists("availableNow",$_GET) || array_key_exists("hasPhoto",$_GET) || array_key_exists("gender",$_GET) || array_key_exists("client-types",$_GET) || array_key_exists("offering",$_GET))){
-				echo ' Groomers';
+				echo ' Law Firms';
 			}else if(empty($search_location_name) && empty($categories[0]['name']) ){
-				echo ' Groomers';
+				echo ' Law Firms';
 			}else{
-				echo ' Groomers - '.$search_location_name;
+				echo ' Law Firms - '.$search_location_name;
 			}
 			echo '</h3>';
 		?>
@@ -225,15 +225,15 @@ function radio($name, $val){
 				}
 				echo (!empty($c_cnt)) ? $c_cnt : '0';
 				if(!empty($search_location_name) && empty($categories[0]['name'])){
-					echo ' Groomers in '.$search_location_name;
+					echo ' Law Firms in '.$search_location_name;
 				}else if(empty($search_location_name) && !empty($categories[0]['name'])){
-					echo ' Groomers Found';
+					echo ' Law Firms Found';
 				}else if(empty($search_location_name) && empty($categories[0]['name']) && (array_key_exists("availableNow",$_GET) || array_key_exists("hasPhoto",$_GET) || array_key_exists("gender",$_GET) || array_key_exists("client-types",$_GET) || array_key_exists("offering",$_GET))){
-					echo ' Groomers Found';
+					echo ' Law Firms Found';
 				}else if(empty($search_location_name) && empty($categories[0]['name']) ){
-					echo ' Groomers Found';
+					echo ' Law Firms Found';
 				}else{
-					echo ' Groomers in '.$search_location_name;
+					echo ' Law Firms in '.$search_location_name;
 				}
 				echo '</h3>'; 
 			}

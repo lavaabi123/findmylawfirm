@@ -24,13 +24,13 @@
 <p>
 	a. <b>User Eligibility:</b> You must be at least 18 years old or the legal age in your jurisdiction to use the Website.</p>
 	<p>
-	b. <b>User Accounts:</b> Groomers and consumers may create user accounts. You are responsible for maintaining the confidentiality of your account information and for any activity occurring under your account.</p>
+	b. <b>User Accounts:</b> Law Firms and consumers may create user accounts. You are responsible for maintaining the confidentiality of your account information and for any activity occurring under your account.</p>
 	<p>
 	c. <b>Accurate Information:</b> You must provide accurate and complete information when creating your profile or using the Website.
 </p>
-<h4>3. Groomer Profiles:</h4>
+<h4>3. Law Firm Profiles:</h4>
 <p>
-	a. Groomer Responsibility: Groomers are solely responsible for the accuracy and completeness of their profiles. You must provide accurate information about your grooming business, including services offered, pricing, location, and contact details.</p>
+	a. Law Firm Responsibility: Law Firms are solely responsible for the accuracy and completeness of their profiles. You must provide accurate information about your grooming business, including services offered, pricing, location, and contact details.</p>
 	<p>
 b. Verification: FindMyLawFirm.com reserves the right to verify the information provided by groomers.</p>
 	<p>

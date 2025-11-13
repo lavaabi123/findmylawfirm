@@ -18,7 +18,7 @@ As a valued law firm, we understand that circumstances change, and we appreciate
 🔍 Recent Searches in Your Zip Code:<?php echo $recent_searches; ?><br/>
 <?php } ?>
 <?php if($recent_connections > 0){ ?>
-🤝 Recent Connections with Groomers:<?php echo $recent_connections; ?>
+🤝 Recent Connections with Law Firms:<?php echo $recent_connections; ?>
 <?php } ?>
 </p>
 <p>

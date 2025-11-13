@@ -47,11 +47,11 @@
 										<option value="">Select</option>
 										<option value="Home" <?php echo (old("page_name") == "Home") ? 'selected':''; ?>>Home</option>
 										<option value="About Us" <?php echo (old("page_name") == "About Us") ? 'selected':''; ?>>About Us</option>										
-										<option value="Find a Groomer" <?php echo (old("page_name") == "Find a Groomer") ? 'selected':''; ?>>Find a Groomer</option>
+										<option value="Find a Law Firm" <?php echo (old("page_name") == "Find a Law Firm") ? 'selected':''; ?>>Find a Law Firm</option>
 										<option value="FAQ" <?php echo (old("page_name") == "FAQ") ? 'selected':''; ?>>FAQ</option>
 										<option value="How It Works" <?php echo (old("page_name") == "How It Works") ? 'selected':''; ?>>How It Works</option>
 										<option value="Blog" <?php echo (old("page_name") == "Blog") ? 'selected':''; ?>>Blog</option>										
-										<option value="BECOME  A GROOMER" <?php echo (old("page_name") == "BECOME  A GROOMER") ? 'selected':''; ?>>BECOME  A GROOMER</option>
+										<option value="BECOME  A Law Firm" <?php echo (old("page_name") == "BECOME  A Law Firm") ? 'selected':''; ?>>BECOME  A Law Firm</option>
 										<option value="Terms and Conditions" <?php echo (old("page_name") == "Terms and Conditions") ? 'selected':''; ?>>Terms and Conditions</option>
 										<option value="Privacy Policy" <?php echo (old("page_name") == "Privacy Policy") ? 'selected':''; ?>>Privacy Policy</option>
 										<option value="How it Works" <?php echo (old("page_name") == "How it Works") ? 'selected':''; ?>>How it Works</option>
