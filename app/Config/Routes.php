@@ -37,6 +37,7 @@ $routes->get('/about-us', 'Home::aboutus');
 $routes->get('/faq', 'Home::faq');
 $routes->get('/testimonials', 'Home::testimonials');
 $routes->get('/blog', 'Home::blog');
+$routes->get('/resources', 'Home::resources');
 $routes->get('/blog_detail/(:any)', 'Home::blog_detail/$1');
 $routes->get('/terms', 'Home::terms');
 $routes->get('/privacy', 'Home::privacy');

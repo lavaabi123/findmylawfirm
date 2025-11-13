@@ -196,6 +196,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			</ul>
 		</div>
 		</div>
+<?php
+ $currentsegment = ($uri->getTotalSegments() >= (env('urlsegment')-1) && !empty($uri->getSegment(env('urlsegment')-1))) ? $uri->getSegment(env('urlsegment')-1) : ''; ?>
 		<nav class="navbar navbar-expand-md">
 		<div class="container-fluid py-xl-2">
 		<div class="row w-100 m-auto align-items-center justify-content-between">
@@ -206,26 +208,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		  <div class="collapse navbar-collapse col-sm-9" id="navbarCollapse">
 			<ul class="navbar-nav ms-auto mb-2 mb-md-0 align-items-center flex-wrap-reverse justify-content-end">
 			  <li class="nav-item">
-				<a class="nav-link active" aria-current="page" href="<?= base_url('/') ?>">Home</a>
+				<a class="nav-link <?php echo (empty($currentsegment)|| ($currentsegment == 'home')) ? 'active' : ''; ?>" aria-current="page" href="<?= base_url('/') ?>">Home</a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link" href="<?= base_url('/providers') ?>">Find a Law Firm </a>
+				<a class="nav-link <?php echo (!empty($currentsegment)&& ($currentsegment == 'providers')) ? 'active' : ''; ?>" href="<?= base_url('/providers') ?>">Find a Law Firm </a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link" href="<?= base_url('/about-us') ?>">About Us</a>
+				<a class="nav-link <?php echo (!empty($currentsegment)&& ($currentsegment == 'about-us')) ? 'active' : ''; ?>" href="<?= base_url('/about-us') ?>">About Us</a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link" href="<?= base_url('/faq') ?>">FAQs</a>
+				<a class="nav-link <?php echo (!empty($currentsegment)&& ($currentsegment == 'faq')) ? 'active' : ''; ?>" href="<?= base_url('/faq') ?>">FAQs</a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link" href="<?= base_url('/how-it-works') ?>">How It Works</a>
+				<a class="nav-link <?php echo (!empty($currentsegment)&& ($currentsegment == 'how-it-works')) ? 'active' : ''; ?>" href="<?= base_url('/how-it-works') ?>">How It Works</a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link" href="<?= base_url('/blog') ?>">Blog</a>
+				<a class="nav-link <?php echo (!empty($currentsegment)&& ($currentsegment == 'blog')) ? 'active' : ''; ?>" href="<?= base_url('/blog') ?>">Blog</a>
 			  </li>
-			  <!--<li class="nav-item">
-				<a class="nav-link" href="<?= base_url('/resoures') ?>">Resources</a>
-			  </li> -->
+			  <li class="nav-item">
+				<a class="nav-link <?php echo (!empty($currentsegment)&& ($currentsegment == 'resources')) ? 'active' : ''; ?>" href="<?= base_url('/resources') ?>">Resources</a>
+			  </li>
 			  <li class="nav-item d-block d-sm-none">
 				<?php if (session()->get('vr_sess_logged_in') != TRUE) : ?>
 				<a class="nav-link" href="<?= base_url('providerauth/login') ?>"><svg class="me-1" style="fill:#000000a6;align-items: center;" width="20" height="20"><use xlink:href="#people-circle"></use></svg>Login</a>
@@ -456,6 +458,11 @@ button#gdpr-cookie-advanced {
 		<script src="<?php echo base_url(); ?>/assets/frontend/js/charge.js"></script>
 	<?php } ?>
 	
+<link rel="stylesheet" href="<?php echo base_url(); ?>/assets/owlcarousel/assets/owl.carousel.min.css">
+
+<link rel="stylesheet" href="<?php echo base_url(); ?>/assets/owlcarousel/assets/owl.theme.default.min.css">
+
+<script src="<?php echo base_url(); ?>/assets/owlcarousel/owl.carousel.js"></script>  
 <script src="<?php echo base_url(); ?>/assets/frontend/js/croppie.js"></script>
 	</body>
 	<script>
@@ -506,6 +513,24 @@ button#gdpr-cookie-advanced {
 			checkLoggedIn();			
 		}, 5000);
 		<?php endif; ?>
+		
+		
+		$(".blog-carousel").owlCarousel({
+			loop:false,
+			margin:10,
+			nav:true,
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:2
+				},
+				1000:{
+					items:3
+				}
+			}
+		})
     });
 	function checkLoggedIn(){
 		$.ajax({
@@ -522,5 +547,6 @@ button#gdpr-cookie-advanced {
 			}
 		});
 	}
+	
     </script>
 </html>

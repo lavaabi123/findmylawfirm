@@ -52,7 +52,20 @@ class Home extends BaseController
 		$data['meta_title'] = !empty(get_seo('About Us')) ? get_seo('About Us')->meta_title : 'About Us | Find My Law Firm';
 		$data['meta_desc'] = !empty(get_seo('About Us')) ? get_seo('About Us')->meta_description : "From mobile to traditional law firms, Find My Law Firms helps you connect with expert law firms in Las Vegas.";
 		$data['meta_keywords'] = !empty(get_seo('About Us')) ? get_seo('About Us')->meta_keywords : '';
+        $this->BlogModel = new BlogModel();
+		$data['blogs'] = $this->BlogModel->get_all_blog();
     	return view('pages/aboutus', $data);
+    }
+	
+    public function resources()
+    {
+        $data['title'] = trans('Resources');
+		$data['meta_title'] = !empty(get_seo('Resources')) ? get_seo('Resources')->meta_title : 'Resources | Find My Law Firm';
+		$data['meta_desc'] = !empty(get_seo('Resources')) ? get_seo('Resources')->meta_description : "From mobile to traditional law firms, Find My Law Firms helps you connect with expert law firms in Las Vegas.";
+		$data['meta_keywords'] = !empty(get_seo('Resources')) ? get_seo('Resources')->meta_keywords : '';
+        $this->BlogModel = new BlogModel();
+		$data['blogs'] = $this->BlogModel->get_all_blog();
+    	return view('pages/resources', $data);
     }
 
     public function faq()
