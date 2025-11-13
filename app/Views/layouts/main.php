@@ -190,7 +190,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<?php endif; ?>
 				<?php if (session()->get('vr_sess_logged_in') != TRUE) : ?>
 				  <li class="nav-item d-block d-sm-none">
-					<a class="nav-link fs-7 fw-bold" href="<?php echo base_url('pricing'); ?>">BECOME  A GROOMER</a>
+					<a class="nav-link fs-7 fw-bold" href="<?php echo base_url('pricing'); ?>">BECOME  A Law Firm</a>
 				  </li>
 				<?php endif; ?>
 			</ul>

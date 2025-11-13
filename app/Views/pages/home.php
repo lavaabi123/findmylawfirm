@@ -300,7 +300,7 @@ Massage Therapists • Personal Trainers • Yoga Instructors • Chiropractors 
 	<div class="row">
 		<div class="col-sm-12 my-4 my-sm-5">
 			<h2 class="title-xl fw-900 mb-3 mb-md-4">Our Mission</h2>
-			<p class="lh-sm">Our mission is to bridge the gap, to help people find groomers they can trust, and to assist groomers in finding clients who value their skills and care as much as they do. Together, we can create a harmonious space where dogs receive the best care, groomers find fulfillment in their work, and dog owners discover peace of mind in the hands of a devoted groomer.</p>
+			<p class="lh-sm">Our mission is to bridge the gap, to help people find Law Firms they can trust, and to assist Law Firms in finding clients who value their skills and care as much as they do. Together, we can create a harmonious space where people receive the best care, Law Firms find fulfillment in their work, and people discover peace of mind in the hands of a devoted lawyer.</p>
 			<a href="<?php echo base_url('/about-us'); ?>" class="btn yellowbtn minbtn m-auto mb-3 d-block">Learn More</a>
 		</div>
 	</div>

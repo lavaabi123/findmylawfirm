@@ -12,7 +12,7 @@
 					<td>
 						<div class="mailcontent" style="margin-top: 30px;line-height: 20px;font-size: 14px;">
 							<p>We miss having you as an essential part of the Find My Law Firm community! 🐾
-As a valued law firm, we understand that circumstances change, and we appreciate the time you spent with us. We're reaching out to let you know that your profile has been missed by pet owners in your area.</p>
+As a valued law firm, we understand that circumstances change, and we appreciate the time you spent with us. We're reaching out to let you know that your profile has been missed by people in your area.</p>
 							<p>
 <?php if($recent_searches > 0){ ?>
 🔍 Recent Searches in Your Zip Code:<?php echo $recent_searches; ?><br/>
@@ -22,7 +22,7 @@ As a valued law firm, we understand that circumstances change, and we appreciate
 <?php } ?>
 </p>
 <p>
-Your expertise is in demand, and there are pet owners actively seeking grooming services in your specific area. We believe your return will not only benefit you but also contribute to the satisfaction of pet owners searching for the perfect law firm.</p>
+Your expertise is in demand, and there are people actively seeking grooming services in your specific area. We believe your return will not only benefit you but also contribute to the satisfaction of people searching for the perfect law firm.</p>
 
 <p>To reactivate your subscription and regain access to these potential clients, simply click on the button below:</p>
 

@@ -329,7 +329,7 @@ label#postcode-error, label#locality-error {
 			placement : 'right',
 			trigger : 'hover',
 			html : true,
-			content : '<div class="tooltip-inner text-start"><p class="dblue mb-2 d-flex align-items-center gap-1 fw-bold fs-8"><img width="24" src="'+simg+'"> A little extra about your groomer!</p><p class="mb-0">These are 2 mandatory questions for your groomer to answer when creating a profile.</p><p>This givens you a little more insight into who you choose to groom your furry baby!</p></div>'
+			content : '<div class="tooltip-inner text-start"><p class="dblue mb-2 d-flex align-items-center gap-1 fw-bold fs-8"><img width="24" src="'+simg+'"> A little extra about your Law Firm!</p><p class="mb-0">These are 2 mandatory questions for your Law Firm to answer when creating a profile.</p></div>'
 		});
 		
 		const milesRangeInput = document.getElementById('miles');

@@ -14,7 +14,7 @@
 						<p style=" text-align: center; margin: 20px 0px;">
 							<a href="<?php echo base_url(); ?>/providerauth/confirm?token=<?php echo $token; ?>" style='display: inline-block;font-size: 12px;font-weight: 700;text-decoration: none;padding: 12px 50px;background-color: #ff6c00; color: #ffffff !important;border-radius: 25px; letter-spacing: 1px;'>CONFIRM MY E-MAIL</a>
 						</p>
-						<p style="color: #000000; font-size:11px; margin-bottom: 5px;">Once confirmed, you'll have full access to our platform and be connected with pet owners in your area.</p>
+						<p style="color: #000000; font-size:11px; margin-bottom: 5px;">Once confirmed, you'll have full access to our platform and be connected with people in your area.</p>
 						<p style="color: #000000; font-size:11px; margin-bottom: 5px;">Best regards, </p>
 						<p style="color: #000000; font-size:11px; margin-bottom: 0px;"><strong>The Find My Law Firm Team</strong></p>
 					</td>

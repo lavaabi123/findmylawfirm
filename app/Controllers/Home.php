@@ -39,7 +39,7 @@ class Home extends BaseController
 		
 		//Meta
 		$data['meta_title'] = !empty(get_seo('Home')) ? get_seo('Home')->meta_title :'Mobile law firms las vegas | Dog law firms las vegas';
-		$data['meta_desc'] = !empty(get_seo('Home')) ? get_seo('Home')->meta_description :"Looking for the best law firms in Las Vegas? Look no further! Discover expert law firms in Las Vegas who cater to your furry friend's needs.";
+		$data['meta_desc'] = !empty(get_seo('Home')) ? get_seo('Home')->meta_description :"Looking for the best law firms in Las Vegas? Look no further! Discover expert law firms in Las Vegas who cater to your needs.";
 		$data['meta_keywords'] = !empty(get_seo('Home')) ? get_seo('Home')->meta_keywords : '';
 		
     	return view('pages/home', $data);

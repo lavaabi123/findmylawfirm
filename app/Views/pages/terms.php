@@ -32,14 +32,14 @@
 <p>
 	a. Law Firm Responsibility: Law Firms are solely responsible for the accuracy and completeness of their profiles. You must provide accurate information about your grooming business, including services offered, pricing, location, and contact details.</p>
 	<p>
-b. Verification: FindMyLawFirm.com reserves the right to verify the information provided by groomers.</p>
+b. Verification: FindMyLawFirm.com reserves the right to verify the information provided by Law Firms.</p>
 	<p>
-c. Reviews and Ratings: Consumers may leave reviews and ratings on groomer profiles. FindMyLawFirm.com is not responsible for the content of these reviews but reserves the right to remove inappropriate or false content.
+c. Reviews and Ratings: Consumers may leave reviews and ratings on Law Firm profiles. FindMyLawFirm.com is not responsible for the content of these reviews but reserves the right to remove inappropriate or false content.
 </p>
 <h4>4. Consumer Use:</h4>
 <p>
-	a. Responsibility: Consumers are responsible for choosing a groomer that best suits their needs. FindMyLawFirm.com is not responsible for any interactions or transactions between consumers and groomers.<p></p>
-b. Feedback: We encourage consumers to provide honest feedback on groomer services, but all feedback must adhere to our community guidelines.
+	a. Responsibility: Consumers are responsible for choosing a Law Firm that best suits their needs. FindMyLawFirm.com is not responsible for any interactions or transactions between consumers and groomers.<p></p>
+b. Feedback: We encourage consumers to provide honest feedback on Law Firm services, but all feedback must adhere to our community guidelines.
 </p>
 <h4>5. Prohibited Conduct.</h4>
 <p>
@@ -63,13 +63,13 @@ b. Effect of Termination: Termination may result in the removal of your profile 
 </p>
 <h4>9. Disclaimer.</h4>
 	<p>
-	a. No Warranties: The Website is provided "as is" without warranties of any kind. We do not guarantee the accuracy or availability of groomers' services.</p><p>
+	a. No Warranties: The Website is provided "as is" without warranties of any kind. We do not guarantee the accuracy or availability of Law Firms' services.</p><p>
 	b. We improve our products and advertising by using Microsoft Clarity to see how you use our website. By using our site, you agree that we and Microsoft can collect and use this data. Our <a href="<?php echo base_url('/privacy'); ?>">privacy statement</a> has more details.</p><p>
 	c. We partner with Microsoft Clarity and Microsoft Advertising to capture how you use and interact with our website through behavioral metrics, heatmaps, and session replay to improve and market our products/services. Website usage data is captured using first and third-party cookies and other tracking technologies to determine the popularity of products/services and online activity. Additionally, we use this information for site optimization, fraud/security purposes, and advertising. For more information about how Microsoft collects and uses your data, visit the <a target="_blank" href="https://privacy.microsoft.com/privacystatement">Microsoft Privacy Statement.</a>
 </p>
 <h4>10. Limitation of Liability.</h4>
 	<p>
-		a. Damages: FindMyLawFirm.com is not liable for any direct or indirect damages resulting from your use of the Website or any transactions with groomers.
+		a. Damages: FindMyLawFirm.com is not liable for any direct or indirect damages resulting from your use of the Website or any transactions with Law Firms.
 	</p>
 <h4>11. Indemnity.</h4>
 	<p>

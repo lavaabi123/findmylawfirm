@@ -20,8 +20,8 @@
 <strong>1. Information We Collect</strong>
 <p class="mt-3">1.1. Information Provided by You When you create an account or use our services, we may collect the following information:</p>
 <ul class="listStyle mb-4">
-<li>Personal Information: This may include your name, email address, phone number, and business information if you are a groomer.
-</li><li>Location Information: We may collect your location to help you find groomers in your area.
+<li>Personal Information: This may include your name, email address, phone number, and business information if you are a Law Firm.
+</li><li>Location Information: We may collect your location to help you find Law Firms in your area.
 </li><li>User Content: Any content you submit, such as reviews, ratings, and messages, may be collected.
 </li></ul><p>1.2. Automatically Collected Information We may collect certain information automatically when you use our website, including:
 </p><ul class="listStyle mb-4"><li>Device Information: We may collect your device's type, operating system, and unique identifiers.
@@ -33,14 +33,14 @@
 <li>To provide and improve our services.</li><li>
 To personalize your experience on our website.</li><li>
 To communicate with you, respond to your inquiries, and send important updates.</li><li>
-To facilitate transactions between consumers and groomers.</li><li>
+To facilitate transactions between consumers and Law Firms.</li><li>
 To monitor and analyze usage patterns and improve our website and services.</li><li>
 To comply with legal obligations and protect our rights and interests.</li>
 </ul>
 <strong>3. Sharing of Your Information</strong>
 <p>We may share your information in the following ways:</p>
 <ul class="listStyle mb-4">
-<li>With groomers: We share consumer information with groomers to facilitate bookings and communication.</li><li>
+<li>With Law Firms: We share consumer information with groomers to facilitate bookings and communication.</li><li>
 With service providers: We may use third-party service providers to assist in the operation of our website.</li><li>
 With legal authorities: We may disclose information if required by law or to protect our legal interests.</li><li>
 In the event of a business transaction: If we are involved in a merger, acquisition, or sale of assets, your information may be transferred as part of the transaction.</li>

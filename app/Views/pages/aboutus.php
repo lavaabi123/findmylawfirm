@@ -53,7 +53,7 @@
 			</div>
 			<div class="col-sm-6 text-center">
 				<img src="<?= base_url('assets/frontend/images/abtimg.jpg') ?>" class="img-fluid withShadow">
-				<a href="<?php echo base_url('providers'); ?>" class="btn yellowbtn minbtn btnWicon"><img src="<?= base_url('assets/frontend/images/ficon.png') ?>" class="img-fluid"> <span>Find My Law Firm</span></a>
+				<a href="<?php echo base_url('providers'); ?>" class="btn yellowbtn minbtn btnWicon"><span>Find My Law Firm</span></a>
 			</div>
 		</div>
 		<div class="row">

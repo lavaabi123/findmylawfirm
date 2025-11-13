@@ -142,7 +142,7 @@ if(!empty($user_detail->avatar)){
 								<p><?php echo !empty($user_detail->question1) ? $user_detail->question1 : '-'; ?></p>
 							<?php }
 							if(!empty($user_detail->question2)){ ?>					
-								<h6 class="dblue mb-3">What kind of pets do I have and what are their names?</h6>
+								<h6 class="dblue mb-3">What kind of people do I have?</h6>
 								<p><?php echo !empty($user_detail->question2) ? $user_detail->question2 : '-'; ?></p>
 							<?php } ?>										
 						</div>
@@ -629,7 +629,7 @@ $(document).ready(function(){
         placement : 'right',
 		trigger : 'hover',
         html : true,
-        content : '<div class="tooltip-inner text-start"><p class="dblue mb-2 d-flex align-items-center gap-1 fw-bold fs-8"><img width="24" src="'+simg+'"> A little extra about your groomer!</p><p class="mb-0">These are 2 mandatory questions for your groomer to answer when creating a profile.</p><p>This givens you a little more insight into who you choose to groom your furry baby!</p></div>'
+        content : '<div class="tooltip-inner text-start"><p class="dblue mb-2 d-flex align-items-center gap-1 fw-bold fs-8"><img width="24" src="'+simg+'"> A little extra about your Law Firm!</p><p class="mb-0">These are 2 mandatory questions for your Law Firm to answer when creating a profile.</p></div>'
     });
 });
 </script>
