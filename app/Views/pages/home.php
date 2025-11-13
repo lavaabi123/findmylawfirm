@@ -46,11 +46,11 @@
 
 			<div class="col col-sm-6 offset-sm-6 form-section mt-2">
 
-				<h3 class="title-xl black">Find the right <br/>Law Firm near you. </h3>
+				<h3 class="title-xl text-black">Find the right <br/>Law Firm near you. </h3>
 
-				<p class="title-sm text-grey mb-sm-5 fw-bold">We make it Easy to make the Best decision.</p>
+				<p class="title-sm text-grey mb-sm-4">We make it Easy to make the Best decision.</p>
 
-				<form class="form-input col-sm-8 col-xxl-6" method='post' id="search-form" action='<?php echo base_url(); ?>/providers'>
+				<form class="form-input col-sm-8 col-xxl-6 mb-lg-4" method='post' id="search-form" action='<?php echo base_url(); ?>/providers'>
 
 					<div class="form-section">
 
@@ -76,13 +76,13 @@
 						<!-- Text input field -->
 						<input type="hidden" id="text-input" value="">						
 
-						<select name='location_id' class='form-control locationhome' >
+						<select name='location_id' class='form-control locationhome mb-2' >
 
 							<option value=''>Enter your Zip Code</option>
 
 						</select>
 
-						<input type='submit' value='Search' class='btn'>
+						<input type='submit' value='Search' class='btn lh-lg'>
 
 					</div>
 
@@ -207,7 +207,7 @@ Massage Therapists • Personal Trainers • Yoga Instructors • Chiropractors 
 
 					<img src="<?= base_url('assets/frontend/images/stars.png') ?>">
 
-					<p>I stumbled upon FindMyGroomer.com while searching for a reliable groomer for my furry friend. Thanks to this platform, I found a fantastic groomer who not only provides excellent service but also has flexible scheduling options. Finding availability has never been easier! Five stars for making pet grooming hassle-free.</p>
+					<p>I stumbled upon FindMyLawFirm.com while searching for a reliable groomer for my furry friend. Thanks to this platform, I found a fantastic groomer who not only provides excellent service but also has flexible scheduling options. Finding availability has never been easier! Five stars for making pet grooming hassle-free.</p>
 
 					<h6 class="black title-sm">- Susan V.</h6>
 
@@ -221,7 +221,7 @@ Massage Therapists • Personal Trainers • Yoga Instructors • Chiropractors 
 
 					<img src="<?= base_url('assets/frontend/images/stars.png') ?>">
 
-					<p>FindMyGroomer.com is a game-changer for pet owners. I discovered a skilled groomer on this platform, and the best part is the ease of finding appointment slots that fit my schedule. It's like having a personal grooming concierge for my pup. Highly recommended!</p>
+					<p>FindMyLawFirm.com is a game-changer for pet owners. I discovered a skilled groomer on this platform, and the best part is the ease of finding appointment slots that fit my schedule. It's like having a personal grooming concierge for my pup. Highly recommended!</p>
 
 					<h6 class="black title-sm">- Mary S.</h6>
 
@@ -235,7 +235,7 @@ Massage Therapists • Personal Trainers • Yoga Instructors • Chiropractors 
 
 					<img src="<?= base_url('assets/frontend/images/stars.png') ?>">
 
-					<p>I can't express how relieved I am to have found FindMyGroomer.com. The platform not only connects you with top-notch groomers but also simplifies the process of scheduling appointments. My pup looks forward to grooming days, and I look forward to the stress-free experience using this site.</p>
+					<p>I can't express how relieved I am to have found FindMyLawFirm.com. The platform not only connects you with top-notch groomers but also simplifies the process of scheduling appointments. My pup looks forward to grooming days, and I look forward to the stress-free experience using this site.</p>
 
 					<h6 class="black title-sm">- Stephen M.</h6>
 
@@ -263,7 +263,7 @@ Massage Therapists • Personal Trainers • Yoga Instructors • Chiropractors 
 
 			<a href="<?php echo base_url('/pricing'); ?>" class="btn minbtn">LIST YOUR LAW FIRM</a>
 
-			<a href="<?php echo base_url('/how-it-works'); ?>" class="btn minbtn">How It Works</a>
+			<a href="<?php echo base_url('/how-it-works'); ?>" class="btn minbtn">HOW IT WORKS</a>
 
 		</div>
 

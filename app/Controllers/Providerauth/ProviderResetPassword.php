@@ -34,7 +34,7 @@ class ProviderResetPassword extends ProviderauthController
             return redirect()->to($this->agent->getReferrer());
         }
 
-		$data['meta_title'] = !empty(get_seo('Reset Password')) ? get_seo('Reset Password')->meta_title : 'Reset Password | Find My Groomer';
+		$data['meta_title'] = !empty(get_seo('Reset Password')) ? get_seo('Reset Password')->meta_title : 'Reset Password | Find My Law Firm';
 		$data['meta_desc'] = !empty(get_seo('Reset Password')) ? get_seo('Reset Password')->meta_description : '';
 		$data['meta_keywords'] = !empty(get_seo('Reset Password')) ? get_seo('Reset Password')->meta_keywords : '';
         return view('Providerauth/ProviderResetPassword', $data);

@@ -25,7 +25,7 @@ class ProviderForgotPassword extends ProviderauthController
         }
 
         $data['title'] = trans('forgot_password');
-		$data['meta_title'] = !empty(get_seo('Forgot Password')) ? get_seo('Forgot Password')->meta_title : 'Forgot Password | Find My Groomer';
+		$data['meta_title'] = !empty(get_seo('Forgot Password')) ? get_seo('Forgot Password')->meta_title : 'Forgot Password | Find My Law Firm';
 		$data['meta_desc'] = !empty(get_seo('Forgot Password')) ? get_seo('Forgot Password')->meta_description : '';
 		$data['meta_keywords'] = !empty(get_seo('Forgot Password')) ? get_seo('Forgot Password')->meta_keywords : '';
 

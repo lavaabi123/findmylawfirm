@@ -28,7 +28,7 @@ if(!empty($user_detail->avatar)){
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12 pe-xl-5">
-				<h4 class="title-md text-center">Thank you for signing up to Find My Groomer!</h4>
+				<h4 class="title-md text-center">Thank you for signing up to Find My Law Firm!</h4>
 				<p class="text-center mb-3 mb-md-4">View your dashboard and start finalizing your profile! If you have any inquiries or concerns, please reach out to our support team for assistance.</p>
 						<h3 class="text-center" style="font-size:20px; font-weight: 900;margin-bottom: 0;">Important Steps to Get Started!</h3>
 				<div class="row mt-3 mb-5">
@@ -50,7 +50,7 @@ if(!empty($user_detail->avatar)){
 					<div class="col-md-4 mt-3">
 					<div class="stepsguide px-3 py-5">
 						<div style="min-height: 120px;"><img src="<?php echo base_url()."/assets/img/upload.png"; ?>" alt="" style="display: block;"/></div>
-						<p class="mt-3" style="font-size: 14px;line-height: 20px;text-align: center;min-height: 120px;">Share your profile! <a href="<?php echo base_url(); ?>">findmygroomer.com</a> provides you with a unique profile that allows you to share with your current and potential customers. This serves as your own personal web page and one you should be product to share!</p>
+						<p class="mt-3" style="font-size: 14px;line-height: 20px;text-align: center;min-height: 120px;">Share your profile! <a href="<?php echo base_url(); ?>">findmylawfirm.com</a> provides you with a unique profile that allows you to share with your current and potential customers. This serves as your own personal web page and one you should be product to share!</p>
 						<a href="javascript:void(0)" onclick="open_social_share()" style='display: inline-block; line-height: 14px; font-size: 12px;font-weight: 400;text-decoration: none;padding: 12px 50px;background-color: #000000; color: #ffffff;border-radius: 15px;'>Share Profile</a>	
 					</div>
 					</div>

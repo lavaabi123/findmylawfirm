@@ -267,7 +267,7 @@
 				<img src="<?php echo base_url('assets/img/youtube.png'); ?>" />					
 			</a>						
 			<?php endif; ?>	
-			<p class="mb-0 mt-4">You have received this email because you have an account at <a href="<?php echo base_url(); ?>">findmygroomer.com</a></p>
+			<p class="mb-0 mt-4">You have received this email because you have an account at <a href="<?php echo base_url(); ?>">findmylawfirm.com</a></p>
 			<p>Did you find this email useful?  <a href="<?php echo base_url('/contact'); ?>">Submit Feedback</a></p>
 			</div>
 				</div>

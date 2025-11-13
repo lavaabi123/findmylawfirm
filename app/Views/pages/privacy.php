@@ -12,8 +12,8 @@
 <div class="row">
 			<div class="col">	
 				<p>
-	Welcome to FindMyGroomer.com ("we," "our," or "us"). We are committed to protecting the privacy and security of your personal information. This Privacy Policy outlines how we collect, use, disclose, and protect the information you provide when you use our website and services.
-	</p><p>By using FindMyGroomer.com, you agree to the terms and practices described in this Privacy Policy. If you do not agree with this policy, please refrain from using our website.
+	Welcome to FindMyLawFirm.com ("we," "our," or "us"). We are committed to protecting the privacy and security of your personal information. This Privacy Policy outlines how we collect, use, disclose, and protect the information you provide when you use our website and services.
+	</p><p>By using FindMyLawFirm.com, you agree to the terms and practices described in this Privacy Policy. If you do not agree with this policy, please refrain from using our website.
 </p>
 
 
@@ -60,7 +60,7 @@ Delete Your Account: You can request the deletion of your account by contacting 
 <p>We may update this Privacy Policy from time to time to reflect changes in our practices. We will notify you of any significant changes through the website or by other means.</p>
 <strong>8. Contact Us</strong>
 <p>If you have any questions, concerns, or requests regarding this Privacy Policy, please contact us at [Contact Information].</p>
-<p>By using FindMyGroomer.com, you consent to the practices outlined in this Privacy Policy. Please review this policy regularly for updates and changes.</p>
+<p>By using FindMyLawFirm.com, you consent to the practices outlined in this Privacy Policy. Please review this policy regularly for updates and changes.</p>
 
 
 

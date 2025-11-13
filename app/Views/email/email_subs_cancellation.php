@@ -15,24 +15,24 @@
 						
 						<p>Dear <?php echo $to_name; ?>,</p>
 
-<p>We hope this email finds you well. We regret to inform you that your subscription to Find My Groomer.com has been canceled as per your recent request.</p>
+<p>We hope this email finds you well. We regret to inform you that your subscription to Find My Law Firm.com has been canceled as per your recent request.</p>
 
 <p>Here are some important details regarding the cancellation:<br />
-<strong>1. Profile Visibility:</strong> Your profile will no longer be visible on Find My Groomer.com. Customers and potential clients will not be able to access your information on our platform.<br />
+<strong>1. Profile Visibility:</strong> Your profile will no longer be visible on Find My Law Firm.com. Customers and potential clients will not be able to access your information on our platform.<br />
 <strong>2. Loss of Analytics and Data:</strong> Unfortunately, with the cancellation of your subscription, access to your analytics and data insights has been discontinued. Any historical data or analytics will no longer be accessible.<br />
 <strong>3. Customer Data and Messages:</strong> Please be aware that upon cancellation, your customer data and messages from clients will be deleted. This includes any correspondence and valuable insights you may have gained from interactions with your customers.</p>
 
-<p>However, please be informed that we value your presence on Find My Groomer.com, and your profile information will be securely stored in our system. In the event that you decide to return, your profile can be reactivated, and you can resume enjoying the benefits of our platform.</p>
+<p>However, please be informed that we value your presence on Find My Law Firm.com, and your profile information will be securely stored in our system. In the event that you decide to return, your profile can be reactivated, and you can resume enjoying the benefits of our platform.</p>
 
 <p>We understand that circumstances change, and we want to assure you that you are welcome back anytime. If you ever wish to renew your subscription, simply log in to your account and follow the renewal process. Your existing profile will be reinstated, and you can continue connecting with clients in no time.</p>
 
-<p>If you have any questions or concerns regarding the cancellation or if there's anything we can assist you with, please feel free to reach out to our <a href="<?php echo base_url('/contact'); ?>" target="_blank">customer support team</a> at [support@findmygroomer.com].</p>
+<p>If you have any questions or concerns regarding the cancellation or if there's anything we can assist you with, please feel free to reach out to our <a href="<?php echo base_url('/contact'); ?>" target="_blank">customer support team</a> at [support@findmylawfirm.com].</p>
 
-<p>We appreciate the time you spent with us on Find My Groomer.com and hope to welcome you back in the future.</p>
+<p>We appreciate the time you spent with us on Find My Law Firm.com and hope to welcome you back in the future.</p>
 
 <p style='margin-top: 30px;margin-bottom: 20px '>Best regards,<br />
 Customer Support Team <br />
-Find My Groomer.com</p>
+Find My Law Firm.com</p>
 						</div>
 					</td>
 				</tr>

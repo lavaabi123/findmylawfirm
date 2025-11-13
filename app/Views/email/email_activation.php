@@ -16,7 +16,7 @@
 						</p>
 						<p style="color: #000000; font-size:11px; margin-bottom: 5px;">Once confirmed, you'll have full access to our platform and be connected with pet owners in your area.</p>
 						<p style="color: #000000; font-size:11px; margin-bottom: 5px;">Best regards, </p>
-						<p style="color: #000000; font-size:11px; margin-bottom: 0px;"><strong>The Find My Groomer Team</strong></p>
+						<p style="color: #000000; font-size:11px; margin-bottom: 0px;"><strong>The Find My Law Firm Team</strong></p>
 					</td>
 				</tr>
 			</table>

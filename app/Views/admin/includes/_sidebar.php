@@ -2,7 +2,7 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
       <!-- Brand Logo -->
       <a href="<?php echo admin_url(); ?>" class="brand-link">
-          <img src="<?php echo base_url(); ?>/assets/img/logo.png" alt="Find My Groomer Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+          <img src="<?php echo base_url(); ?>/assets/img/logo.png" alt="Find My Law Firm Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
           <span class="brand-text font-weight-light"><?php echo get_general_settings()->application_name ?></span>
       </a>
 

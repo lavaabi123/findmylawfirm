@@ -29,7 +29,7 @@
 			<!-- MESSAGE ME - START -->
 			<div class="col-8">
 				<div id="contact-provider" class="rounded-5 p-4 py-sm-5 mb-5" style="background: #dbd6d6;">
-					<p class="text-dark">Thank you for your interest in Find My Groomer. Feel free to contact us with any questions or suggestions you may have. Just complete the form and we will respond to your email as promptly as possible.</p>
+					<p class="text-dark">Thank you for your interest in Find My Law Firm. Feel free to contact us with any questions or suggestions you may have. Just complete the form and we will respond to your email as promptly as possible.</p>
 					<form action="<?php echo base_url('/submit-contact'); ?>" method="post" id="contactForm1" class="form-input">
 					<?php $validation = \Config\Services::validation(); ?>
 					<!-- Recaptcha Error -->
@@ -76,7 +76,7 @@
 				<h3 class="title-sm dblue mt-3 mb-0">DID YOU KNOW?</h3>
 				<p>Most questions can be answered in our <a href="<?php echo base_url(); ?>/faq">FAQ</a></p>
 				<!--<hr>
-				<h3 class="title-sm dblue mt-3 mb-0">Find My Groomer Corporate</h3>
+				<h3 class="title-sm dblue mt-3 mb-0">Find My Law Firm Corporate</h3>
 				<p>Monday-Friday 9:00am-5:00pm<br>
 					<small>Pacific Standard Time</small></p>-->
 				</div>

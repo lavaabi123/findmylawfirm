@@ -91,7 +91,7 @@ class ProviderDashboard extends ProviderauthController
 		$data['recent_payments'] = $query1;
 
 		$data['zipcodes'] = json_encode($arr);
-		$data['meta_title'] = 'Dashboard | Find My Groomer';
+		$data['meta_title'] = 'Dashboard | Find My Law Firm';
         return view('Providerauth/ProviderDashboard', $data);
     }
     public function index1()
@@ -191,7 +191,7 @@ class ProviderDashboard extends ProviderauthController
 		$data['recent_payments'] = $query1;
 		$data['id'] = isset($vr_sess_user_id) ? "id=".$vr_sess_user_id."&" : "";
 		$data['zipcodes'] = json_encode($arr);
-		$data['meta_title'] = 'Dashboard | Find My Groomer';
+		$data['meta_title'] = 'Dashboard | Find My Law Firm';
         return view('Providerauth/ProviderDashboard', $data);
     }
 	
@@ -217,7 +217,7 @@ class ProviderDashboard extends ProviderauthController
         $this->ClientTypesModel = new ClientTypesModel();
 		$data['client_types'] = $this->ClientTypesModel->get_client_types();
 		$data['title'] = trans('Edit My Profile');
-		$data['meta_title'] = 'Edit My Profile | Find My Groomer';
+		$data['meta_title'] = 'Edit My Profile | Find My Law Firm';
         return view('Providerauth/ProviderEditProfile', $data);
 	}
 
@@ -328,7 +328,7 @@ class ProviderDashboard extends ProviderauthController
 		$data['user_detail'] = $this->UsersModel->get_user(session()->get('vr_sess_user_id'));
 		$data['user_photos'] = $this->UsersModel->get_user_photos(session()->get('vr_sess_user_id'));
 		$data['title'] = trans('Photos');
-		$data['meta_title'] = 'Photos | Find My Groomer';
+		$data['meta_title'] = 'Photos | Find My Law Firm';
         return view('Providerauth/ProviderPhotos', $data);
 	}
 	public function photos_post(){
@@ -438,7 +438,7 @@ class ProviderDashboard extends ProviderauthController
 		$this->UsersModel = new UsersModel();
 		$data['user_detail'] = $this->UsersModel->get_user(session()->get('vr_sess_user_id'));
 		$data['title'] = trans('Account Settings');
-		$data['meta_title'] = 'Account Settings | Find My Groomer';
+		$data['meta_title'] = 'Account Settings | Find My Law Firm';
         return view('Providerauth/ProviderAccountSettings', $data);
 	}
 	
@@ -493,7 +493,7 @@ class ProviderDashboard extends ProviderauthController
 		$data['title'] = trans('Checkout');
 		$data['type'] = !empty($this->request->getVar('type')) ? $this->request->getVar('type') : '';
 		
-		$data['meta_title'] = !empty(get_seo('Checkout')) ? get_seo('Checkout')->meta_title : 'Checkout | Find My Groomer';
+		$data['meta_title'] = !empty(get_seo('Checkout')) ? get_seo('Checkout')->meta_title : 'Checkout | Find My Law Firm';
 		$data['meta_desc'] = !empty(get_seo('Checkout')) ? get_seo('Checkout')->meta_description : '';
 		$data['meta_keywords'] = !empty(get_seo('Checkout')) ? get_seo('Checkout')->meta_keywords : '';
         return view('Providerauth/ProviderCheckout', $data);
@@ -687,7 +687,7 @@ class ProviderDashboard extends ProviderauthController
 							],		            
 							'cancel_at_period_end' => false,
 							'metadata' => [
-								'title' => 'Find My Groomer '.$data['plan_detail'][0]->name.' Plan',
+								'title' => 'Find My Law Firm '.$data['plan_detail'][0]->name.' Plan',
 								'description' => $data['plan_detail'][0]->name.' Plan',
 							],
 							'trial_period_days' => 30,
@@ -706,7 +706,7 @@ class ProviderDashboard extends ProviderauthController
 							],		            
 							'cancel_at_period_end' => false,
 							'metadata' => [
-								'title' => 'Find My Groomer '.$data['plan_detail'][0]->name.' Plan',
+								'title' => 'Find My Law Firm '.$data['plan_detail'][0]->name.' Plan',
 								'description' => $data['plan_detail'][0]->name.' Plan',
 							],
 						]);					
@@ -841,7 +841,7 @@ class ProviderDashboard extends ProviderauthController
 		$this->UsersModel = new UsersModel();
 		$data['user_detail'] = $this->UsersModel->get_user(session()->get('vr_sess_user_id'));
 		$data['title'] = trans('Thank You');
-		$data['meta_title'] = !empty(get_seo('Thank You')) ? get_seo('Thank You')->meta_title : 'Thank You | Find My Groomer';
+		$data['meta_title'] = !empty(get_seo('Thank You')) ? get_seo('Thank You')->meta_title : 'Thank You | Find My Law Firm';
 		$data['meta_desc'] = !empty(get_seo('Thank You')) ? get_seo('Thank You')->meta_description : '';
 		$data['meta_keywords'] = !empty(get_seo('Thank You')) ? get_seo('Thank You')->meta_keywords : '';
         return view('pages/thankyou', $data);        
@@ -855,7 +855,7 @@ class ProviderDashboard extends ProviderauthController
 		$this->UsersModel = new UsersModel();
 		$data['user_detail'] = $this->UsersModel->get_user(session()->get('vr_sess_user_id'));
 		$data['title'] = trans('Thank You');
-		$data['meta_title'] = 'Thank You | Find My Groomer';
+		$data['meta_title'] = 'Thank You | Find My Law Firm';
         return view('pages/crop', $data);        
 		
 	}
@@ -915,7 +915,7 @@ class ProviderDashboard extends ProviderauthController
 		$data['payment_methods']         = $this->update_card();
 		
 		$data['title'] = trans('Billing');
-		$data['meta_title'] = 'Billing | Find My Groomer';
+		$data['meta_title'] = 'Billing | Find My Law Firm';
         return view('Providerauth/ProviderBilling', $data);
 	}
 
@@ -1237,7 +1237,7 @@ class ProviderDashboard extends ProviderauthController
 		//echo '<pre>';print_r($payments);exit;
 		$data['payments'] = $payments;
 		$data['title'] = trans('Payment History');
-		$data['meta_title'] = 'Payment History | Find My Groomer';
+		$data['meta_title'] = 'Payment History | Find My Law Firm';
         return $var = view('Providerauth/ProviderPayments', $data);
 	}
 	
@@ -1277,7 +1277,7 @@ class ProviderDashboard extends ProviderauthController
 
         $data['paginations'] = $pagination['pagination'];
 
-		$data['meta_title'] = 'Messages | Find My Groomer';
+		$data['meta_title'] = 'Messages | Find My Law Firm';
         $data['providers'] = $this->UsersModel->get_users();
         return view('Providerauth/ProviderMessages', $data);
 	}

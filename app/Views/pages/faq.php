@@ -8,75 +8,69 @@
 	<div class="container py-3 py-xl-5">
 		<div class="m-auto faqs" id="">
 		  <div class="border-bottom mb-4">
-			<h6>What is Findmygroomer.com?</h6>
-			<p>Findmygroomer.com is a nationwide online directory that helps dog owners find professional dog groomers in their area. It also provides a platform for dog groomers to create and manage their business profiles online.</p>
+			<h6>What is <a href="<?php echo base_url('providers'); ?>">FindMyLawFirm.org</a>?</h6>
+			<p><a href="<?php echo base_url('providers'); ?>">FindMyLawFirm.org</a> is a nationwide online directory that helps individuals and businesses find reputable law firms and attorneys in their area. It also provides a platform for law firms to create and manage their online business profiles.</p>
 		  </div>
 		  <div class="border-bottom mb-4">
-			<h6>How can I use Findmygroomer.com as a dog owner?</h6>
-			<p>As a dog owner, you can simply enter your location, browse through groomer profiles, and contact groomers directly to book an appointment for your pet. <a href="<?php echo base_url('providers'); ?>">Find your groomer here!</a></p>
+			<h6>How can I use <a href="<?php echo base_url('providers'); ?>">FindMyLawFirm.org</a> to find a lawyer?</h6>
+			<p>Simply enter your location, browse through attorney and law-firm profiles, and contact them directly to schedule a consultation. Start your search here!</p>
 		  </div>
 		  <div class="border-bottom mb-4">
-			<h6>Is Findmygroomer.com available nationwide?</h6>
-			<p>Yes, Findmygroomer.com covers dog groomers all across the United States, making it a comprehensive resource for dog owners.</p>
+			<h6>Is FindMyLawFirm.org available nationwide?</h6>
+			<p>Yes. FindMyLawFirm.org includes law firms and legal professionals across the United States, making it a comprehensive resource for anyone seeking legal services.</p>
 		  </div>
 		  <div class="border-bottom mb-4">
-			<h6>Can I search for specific grooming services, such as mobile grooming or special breed grooming?</h6>
-			<p>Absolutely! You can filter your search based on specific grooming services and even search for groomers specializing in certain dog breeds.</p>
+			<h6>Can I search for specific legal services or practice areas?</h6>
+			<p>Absolutely. You can filter your search based on the services you need—such as personal injury, family law, criminal defense, real estate, business law, and more.</p>
 		  </div>
 		  <div class="border-bottom mb-4">
-			<h6>How can dog groomers benefit from Findmygroomer.com?</h6>
-			<p>Dog groomers can <a href="<?php echo base_url('pricing'); ?>">create a business profile</a>, gain online visibility, and receive leads from potential clients through our platform.</p>
+			<h6>How can law firms benefit from FindMyLawFirm.org?</h6>
+			<p>Law firms can create a business profile, increase their online visibility, and receive leads from potential clients actively seeking legal representation.</p>
 		  </div>
 		  <div class="border-bottom mb-4">
-			<h6>Is it free for dog groomers to create a business profile?</h6>
-			<p>No, We offer 2 different plan options to choose from. Please visit our pricing page to learn more about the different plans we currently offer.</p>
+			<h6>Is it free for law firms to create a business profile?</h6>
+			<p>No. We offer multiple plan options. Please visit our Pricing page to learn more about available plans.</p>
 		  </div>
 		  <div class="border-bottom mb-4">
 			<h6>Why is there not a free listing option?</h6>
-			<p>We prioritize the verification of dog groomers and grooming shop owners to ensure their legitimacy and commitment to their businesses. Requiring payment information during registration serves as a significant step in confirming their authenticity. This process helps maintain the quality and credibility of our platform, ensuring that only serious individuals and businesses can create profiles.</p>
+			<p>We prioritize credibility and verification. Requiring payment information during registration helps verify that the law firm is legitimate and actively practicing. This ensures that only serious, verified firms appear on the platform—maintaining quality, trust, and safety for users.</p>
 		  </div>
 		  <div class="border-bottom mb-4">
 			<h6>What are the benefits of a premium business profile?</h6>
-			<p>Premium profiles receive priority placement in search results, the ability to showcase more photos and services, and access to advanced marketing tools.</p>
+			<p>Premium profiles receive higher placement in search results, the ability to showcase more practice areas, attorneys, case highlights/reviews, and access to additional marketing and lead-generation tools.</p>
 		  </div>
 		  <div class="border-bottom mb-4">
-			<h6>How do I claim or create my business profile on Findmygroomer.com?</h6>
-			<p>Simply sign up, <a href="<?php echo base_url('pricing'); ?>">create an account</a>, and follow the step-by-step instructions to add or claim your business profile.</p>
+			<h6>How do I claim or create my law firm profile on FindMyLawFirm.org?</h6>
+			<p>Just sign up, create an account, and follow the step-by-step instructions to build or claim your firm’s profile.</p>
 		  </div>
 		  <div class="border-bottom mb-4">
-			<h6>Can I update my business information on my profile?</h6>
-			<p>Yes, you can edit and update your business information at any time through your account dashboard.</p>
+			<h6>Can I update my firm’s information after creating a profile?</h6>
+			<p>Yes. You can edit and update your firm’s information at any time through your dashboard.</p>
 		  </div>
 		  <div class="border-bottom mb-4">
-			<h6>How do I contact a dog groomer through the website?</h6>
-			<p>You can contact a groomer directly through their profile page by using the provided contact information or any contact forms they may have.</p>
+			<h6>How do I contact a law firm through the website?</h6>
+			<p>You can contact a law firm directly through its profile using the provided contact details or any available contact forms.</p>
 		  </div>
 		  <div class="border-bottom mb-4">
-			<h6>
-				Is there a mobile app for Findmygroomer.com?
-			  </h6>
-			<p>We currently do not have a mobile app, but our website is fully optimized for mobile use.</p>
+			<h6>Is there a mobile app for FindMyLawFirm.org?</h6>
+			<p>Not at this time, but our website is fully optimized for mobile use.</p>
 		  </div>
 		  <div class="border-bottom mb-4">
-			<h6>
-				Can I report a problem or inappropriate content on the website?
-			  </h6>
-			<p>Yes, we have a reporting system in place. If you encounter any issues or inappropriate content, please use the provided reporting tools.</p>
+			<h6>Can I report a problem or inappropriate content on the website?</h6>
+			<p>Yes. We have a reporting system in place. If you encounter inaccurate information or inappropriate content, please use the “Report” feature on the site.</p>
 		  </div>
 		  <div class="border-bottom mb-4">
-			<h6>
-				Is my personal information safe when using Findmygroomer.com?
-			  </h6>
-			<p>We take your privacy seriously and have security measures in place to protect your personal information. Please review our <a href="<?php echo base_url('privacy'); ?>">Privacy Policy</a> for more details.</p>
+			<h6>Is my personal information safe when using FindMyLawFirm.org?</h6>
+			<p>Yes. We prioritize privacy and have secure systems in place to protect your information. You can read more in our Privacy Policy.</p>
 		  </div>
 		  <div class="border-bottom mb-4">
-			<h6>How can I provide feedback or get in touch with customer support?</h6>
-			<p>You can contact our customer support team through the <a href="<?php echo base_url('contact'); ?>">Contact Us</a> page on the website. We appreciate your feedback and are here to assist you.</p>
+			<h6>How can I provide feedback or contact customer support?</h6>
+			<p>Visit our Contact Us page and send us a message. We welcome feedback and are here to help.</p>
 		  </div>
 		  
 		  
 		</div>
 	</div>
-	<div class="wbprovider text-center">	<div class="container py-sm-3 d-flex flex-column">		<h3 class="title-md mb-2 text-black">Want to become a groomer?</h3>		<p class="title-xs text-grey fw-bold">It’s easy and you can make a profile absolutely FREE!</p>		<div class="d-flex justify-content-center gap-3 mt-4">			<a href="<?php echo base_url('/pricing'); ?>" class="btn yellowbtn minbtn">Become a Groomer</a>			<a href="<?php echo base_url('/how-it-works'); ?>" class="btn yellowbtn minbtn">How It Works</a>		</div>	</div></div>
+	<div class="wbprovider text-center">	<div class="container py-sm-3 d-flex flex-column">		<h3 class="title-md mb-2 text-black">Want to become a law firm?</h3>		<p class="title-xs text-grey fw-bold">It’s easy and you can make a profile absolutely FREE!</p>		<div class="d-flex justify-content-center gap-3 mt-4">			<a href="<?php echo base_url('/pricing'); ?>" class="btn yellowbtn minbtn">Become a Law Firm</a>			<a href="<?php echo base_url('/how-it-works'); ?>" class="btn yellowbtn minbtn">How It Works</a>		</div>	</div></div>
 </main>
 <?= $this->endSection() ?>

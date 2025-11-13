@@ -39,7 +39,7 @@
 								?>                  
 						<?php } */ ?>
 							<p> Due to subscription payment failure, your plan has been changed to <strong>Free</strong>.
-							 <br><a href="<?php echo base_url('contact'); ?>">Click here</a> to contact Find My Groomer Administrator.
+							 <br><a href="<?php echo base_url('contact'); ?>">Click here</a> to contact Find My Law Firm Administrator.
 							</p>
 							</div>
 						</td>

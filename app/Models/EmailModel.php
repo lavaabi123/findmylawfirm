@@ -94,7 +94,7 @@ class EmailModel extends Model
         if (!empty($user)) {
 
             $data = array(
-                'subject' => trans("Welcome to Find My Groomer"),
+                'subject' => trans("Welcome to Find My Law Firm"),
                 'to' => $user->email,
                 'first_name' => $user->first_name,
                 'business_name' => $user->business_name,

@@ -138,7 +138,7 @@ if(!empty($user_detail->avatar)){
 						<div class="quesAns">	
 							<h3 class="title-md dblue mb-4 mb-sm-5">A little about me <i class="toolTipinfo" data-toggle="popover">i</i></h3>
 							<?php if(!empty($user_detail->question1)){ ?>
-								<h6 class="dblue mb-3">Why did I become a dog groomer?</h6>					
+								<h6 class="dblue mb-3">Why did I become a law firm?</h6>					
 								<p><?php echo !empty($user_detail->question1) ? $user_detail->question1 : '-'; ?></p>
 							<?php }
 							if(!empty($user_detail->question2)){ ?>					
@@ -806,7 +806,7 @@ function showPhone(ths){
       imageUrl: '<?php echo base_url(); ?>' + '/assets/img/sawMeOn.png',
       imageWidth: 400,
       imageHeight: 200,
-      imageAlt: 'Say you saw me on findmygroomer.com',
+      imageAlt: 'Say you saw me on findmylawfirm.com',
 	  showConfirmButton: false,
 	  customClass: {
 		  container: 'callmePopup',

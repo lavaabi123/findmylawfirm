@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <title><?php echo !empty($meta_title) ? $meta_title : 'Find a Dog Groomer Near You!'; ?></title>
-    <meta name="description" content="<?php echo !empty($meta_desc) ? $meta_desc : 'At findmygroomer.com, our mission is to make the quest for the perfect groomer a seamless and trustworthy experience for dog owners, while simultaneously helping groomers find loyal clientele and wonderful canine companions.'; ?>">
+    <meta name="description" content="<?php echo !empty($meta_desc) ? $meta_desc : 'At findmylawfirm.com, our mission is to make the quest for the perfect law firm a seamless and trustworthy experience for people, while simultaneously helping law firms find loyal clientele and wonderful canine companions.'; ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="<?php echo base_url(); ?>/assets/img/favicon.ico" />
     
-    <meta name="keywords" content="<?php echo !empty($meta_keywords) ? $meta_keywords : 'mobile dog groomers las vegas, dog groomers las vegas, groomers las vegas, dog groomers in las vegas, mobile dog grooming Las Vegas, best dog groomers in las vegas'; ?>">
-    <meta property="og:title" content="Find a Dog Groomer Near You!"/>
-    <meta property="og:description" content="At findmygroomer.com, our mission is to make the quest for the perfect groomer a seamless and trustworthy experience for dog owners, while simultaneously helping groomers find loyal clientele and wonderful canine companions."/>
+    <meta name="keywords" content="<?php echo !empty($meta_keywords) ? $meta_keywords : 'mobile law firms las vegas, law firms las vegas, law firms las vegas, law firms in las vegas, mobile law firm Las Vegas, best law firms in las vegas'; ?>">
+    <meta property="og:title" content="Find a law firm Near You!"/>
+    <meta property="og:description" content="At findmylawfirm.com, our mission is to make the quest for the perfect law firm a seamless and trustworthy experience for people, while simultaneously helping law firms find loyal clientele."/>
     <meta property="og:image" content="<?php echo base_url(); ?>/assets/img/fmg-logo.jpg"/>
     <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback" as="font" type="font/woff" crossorigin>-->
@@ -197,7 +197,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		</div>
 		</div>
 		<nav class="navbar navbar-expand-md">
-		<div class="container-fluid py-xl-3">
+		<div class="container-fluid py-xl-2">
 		<div class="row w-100 m-auto align-items-center justify-content-between">
 		  <a class="navbar-brand col-sm-3 me-0" href="<?= base_url('/') ?>"><img class="img-fluid" title="CodeIgniter Logo" alt="Visit CodeIgniter.com official website!" src="<?= base_url('assets/img/logo.png') ?>"></a>
 		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -217,12 +217,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			  <li class="nav-item">
 				<a class="nav-link" href="<?= base_url('/faq') ?>">FAQs</a>
 			  </li>
-			  <!--<li class="nav-item">
+			  <li class="nav-item">
 				<a class="nav-link" href="<?= base_url('/how-it-works') ?>">How It Works</a>
 			  </li>
 			  <li class="nav-item">
 				<a class="nav-link" href="<?= base_url('/blog') ?>">Blog</a>
-			  </li>-->
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="<?= base_url('/resoures') ?>">Resources</a>
+			  </li>
 			  <li class="nav-item d-block d-sm-none">
 				<?php if (session()->get('vr_sess_logged_in') != TRUE) : ?>
 				<a class="nav-link" href="<?= base_url('providerauth/login') ?>"><svg class="me-1" style="fill:#000000a6;align-items: center;" width="20" height="20"><use xlink:href="#people-circle"></use></svg>Login</a>

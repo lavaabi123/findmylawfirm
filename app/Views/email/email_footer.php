@@ -63,7 +63,7 @@
 					<td class="content-block powered-by" style="text-align: center; padding-top:30px;">					
 					<p style="font-size:11px;">If you need Customer Support please contact us <a href="<?php echo base_url('contact'); ?>" style="color:#d65b00; text-decoration: underline;">here for further assistance.</a></p>
 						<!--<span class="apple-link" style="display: block;"><?php echo get_general_settings()->contact_address; ?></span>
-						<span>Copyright &copy; <?php echo date("Y"); ?> <a style="color: #ffffff;" href="<?php echo base_url(); ?>">Find My Groomer</a>. All rights reserved.</span>-->
+						<span>Copyright &copy; <?php echo date("Y"); ?> <a style="color: #ffffff;" href="<?php echo base_url(); ?>">Find My Law Firm</a>. All rights reserved.</span>-->
 					</td>
 				</tr>			
 			</table>			

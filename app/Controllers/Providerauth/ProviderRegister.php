@@ -48,7 +48,7 @@ class ProviderRegister extends ProviderauthController
         $this->CategoriesSkillsModel = new CategoriesSkillsModel();
 		$data['categories_skills'] = $this->CategoriesSkillsModel->get_categories_skills_by_category_id(1);
 		
-		$data['meta_title'] = !empty(get_seo('Register')) ? get_seo('Register')->meta_title : 'Register | Find My Groomer';
+		$data['meta_title'] = !empty(get_seo('Register')) ? get_seo('Register')->meta_title : 'Register | Find My Law Firm';
 		$data['meta_desc'] = !empty(get_seo('Register')) ? get_seo('Register')->meta_description : '';
 		$data['meta_keywords'] = !empty(get_seo('Register')) ? get_seo('Register')->meta_keywords : '';
         return view('Providerauth/ProviderRegister', $data);

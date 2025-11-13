@@ -28,7 +28,7 @@ class ProviderLogin extends ProviderauthController
         }
 
         $data['title'] = trans('login');
-		$data['meta_title'] = !empty(get_seo('Login')) ? get_seo('Login')->meta_title : 'Login | Find My Groomer';
+		$data['meta_title'] = !empty(get_seo('Login')) ? get_seo('Login')->meta_title : 'Login | Find My Law Firm';
 		$data['meta_desc'] = !empty(get_seo('Login')) ? get_seo('Login')->meta_description : '';
 		$data['meta_keywords'] = !empty(get_seo('Login')) ? get_seo('Login')->meta_keywords : '';
 

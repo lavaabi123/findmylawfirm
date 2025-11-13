@@ -11,8 +11,8 @@
 				<tr>
 					<td>
 						<div class="mailcontent" style="margin-top: 30px;line-height: 20px;font-size: 14px;">
-							<p>We miss having you as an essential part of the Find My Groomer community! 🐾
-As a valued groomer, we understand that circumstances change, and we appreciate the time you spent with us. We're reaching out to let you know that your profile has been missed by pet owners in your area.</p>
+							<p>We miss having you as an essential part of the Find My Law Firm community! 🐾
+As a valued law firm, we understand that circumstances change, and we appreciate the time you spent with us. We're reaching out to let you know that your profile has been missed by pet owners in your area.</p>
 							<p>
 <?php if($recent_searches > 0){ ?>
 🔍 Recent Searches in Your Zip Code:<?php echo $recent_searches; ?><br/>
@@ -22,19 +22,19 @@ As a valued groomer, we understand that circumstances change, and we appreciate 
 <?php } ?>
 </p>
 <p>
-Your expertise is in demand, and there are pet owners actively seeking grooming services in your specific area. We believe your return will not only benefit you but also contribute to the satisfaction of pet owners searching for the perfect groomer.</p>
+Your expertise is in demand, and there are pet owners actively seeking grooming services in your specific area. We believe your return will not only benefit you but also contribute to the satisfaction of pet owners searching for the perfect law firm.</p>
 
 <p>To reactivate your subscription and regain access to these potential clients, simply click on the button below:</p>
 
 <a href="<?php echo base_url(); ?>/providerauth/plan" style='display: inline-block;font-size: 12px;font-weight: 700;text-decoration: none;padding: 12px 50px;background-color: #ff6c00; color: #ffffff !important;border-radius: 25px; letter-spacing: 1px;'>Reactivate My Subscription</a><br/><br/>
 						<p>
-We understand that circumstances change, and we're here to support you in reconnecting with the Find My Groomer community.
+We understand that circumstances change, and we're here to support you in reconnecting with the Find My Law Firm community.
 
 Thank you for considering coming back. We're excited to have you back on board!
 							</p>
 							<p style='margin-top: 30px;margin-bottom: 20px '>
 								Thank you, <br />
-								The Find My Groomer Team
+								The Find My Law Firm Team
 							</p>
 						</div>
 					</td>

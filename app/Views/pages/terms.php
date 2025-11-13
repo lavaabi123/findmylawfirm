@@ -14,11 +14,11 @@
 			<div class="col">
 						
 				<p>
-	Welcome to FindMyGroomer.com! These Terms of Service ("Terms") govern your use of our website and services. Please read them carefully.
+	Welcome to FindMyLawFirm.com! These Terms of Service ("Terms") govern your use of our website and services. Please read them carefully.
 </p>
 <h4>1. Acceptance of Terms.</h4>
 <p>
-	By accessing or using FindMyGroomer.com ("the Website"), you agree to comply with and be bound by these Terms. If you do not agree with these Terms, please do not use the Website.
+	By accessing or using FindMyLawFirm.com ("the Website"), you agree to comply with and be bound by these Terms. If you do not agree with these Terms, please do not use the Website.
 </p>
 <h4>2. Use of the Website.</h4>
 <p>
@@ -32,13 +32,13 @@
 <p>
 	a. Groomer Responsibility: Groomers are solely responsible for the accuracy and completeness of their profiles. You must provide accurate information about your grooming business, including services offered, pricing, location, and contact details.</p>
 	<p>
-b. Verification: FindMyGroomer.com reserves the right to verify the information provided by groomers.</p>
+b. Verification: FindMyLawFirm.com reserves the right to verify the information provided by groomers.</p>
 	<p>
-c. Reviews and Ratings: Consumers may leave reviews and ratings on groomer profiles. FindMyGroomer.com is not responsible for the content of these reviews but reserves the right to remove inappropriate or false content.
+c. Reviews and Ratings: Consumers may leave reviews and ratings on groomer profiles. FindMyLawFirm.com is not responsible for the content of these reviews but reserves the right to remove inappropriate or false content.
 </p>
 <h4>4. Consumer Use:</h4>
 <p>
-	a. Responsibility: Consumers are responsible for choosing a groomer that best suits their needs. FindMyGroomer.com is not responsible for any interactions or transactions between consumers and groomers.<p></p>
+	a. Responsibility: Consumers are responsible for choosing a groomer that best suits their needs. FindMyLawFirm.com is not responsible for any interactions or transactions between consumers and groomers.<p></p>
 b. Feedback: We encourage consumers to provide honest feedback on groomer services, but all feedback must adhere to our community guidelines.
 </p>
 <h4>5. Prohibited Conduct.</h4>
@@ -48,7 +48,7 @@ b. Hacking and Misuse: You agree not to attempt to gain unauthorized access to t
 </p>
 <h4>6. Intellectual Property</h4>
 	<p>
-		a. Ownership: FindMyGroomer.com retains all rights to the content, trademarks, and intellectual property associated with the Website.</p><p>
+		a. Ownership: FindMyLawFirm.com retains all rights to the content, trademarks, and intellectual property associated with the Website.</p><p>
 b. Use of Content: Users may use the Website content for personal, non-commercial purposes. Any other use is prohibited without our written consent.
 	</p>
 	
@@ -69,11 +69,11 @@ b. Effect of Termination: Termination may result in the removal of your profile 
 </p>
 <h4>10. Limitation of Liability.</h4>
 	<p>
-		a. Damages: FindMyGroomer.com is not liable for any direct or indirect damages resulting from your use of the Website or any transactions with groomers.
+		a. Damages: FindMyLawFirm.com is not liable for any direct or indirect damages resulting from your use of the Website or any transactions with groomers.
 	</p>
 <h4>11. Indemnity.</h4>
 	<p>
-		a. You agree to indemnify and hold FindMyGroomer.com and its affiliates harmless from any claims, losses, or liabilities arising from your use of the Website.
+		a. You agree to indemnify and hold FindMyLawFirm.com and its affiliates harmless from any claims, losses, or liabilities arising from your use of the Website.
 	</p>
 <h4>12. Modification of Terms.</h4>
 	<p>
@@ -87,7 +87,7 @@ b. Effect of Termination: Termination may result in the removal of your profile 
 	<p>
 		a. If you have any questions or concerns about these Terms, please contact us at [Your Contact Information].
 	</p>
-	<p>By using FindMyGroomer.com, you acknowledge that you have read, understood, and agree to these Terms of Service. Thank you for using our services!</p>		</div>
+	<p>By using FindMyLawFirm.com, you acknowledge that you have read, understood, and agree to these Terms of Service. Thank you for using our services!</p>		</div>
 		</div>  
 </div>
 </main>		

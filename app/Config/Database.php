@@ -33,9 +33,9 @@ class Database extends Config
     public $default = [
         'DSN'      => '',
         'hostname' => 'localhost',
-        'username' => 'developm_findmygroomer',
+        'username' => 'developm_findmylawfirm',
         'password' => 'Ljh(YUq-E^4S',
-        'database' => 'developm_findmygroomer',
+        'database' => 'developm_findmylawfirm',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,

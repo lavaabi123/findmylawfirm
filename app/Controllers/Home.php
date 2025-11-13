@@ -38,8 +38,8 @@ class Home extends BaseController
 		$data['blogs'] = $this->BlogModel->get_all_blog();
 		
 		//Meta
-		$data['meta_title'] = !empty(get_seo('Home')) ? get_seo('Home')->meta_title :'Mobile dog groomers las vegas | Dog groomers las vegas';
-		$data['meta_desc'] = !empty(get_seo('Home')) ? get_seo('Home')->meta_description :"Looking for the best dog groomers in Las Vegas? Look no further! Discover expert groomers in Las Vegas who cater to your furry friend's needs.";
+		$data['meta_title'] = !empty(get_seo('Home')) ? get_seo('Home')->meta_title :'Mobile law firms las vegas | Dog law firms las vegas';
+		$data['meta_desc'] = !empty(get_seo('Home')) ? get_seo('Home')->meta_description :"Looking for the best law firms in Las Vegas? Look no further! Discover expert law firms in Las Vegas who cater to your furry friend's needs.";
 		$data['meta_keywords'] = !empty(get_seo('Home')) ? get_seo('Home')->meta_keywords : '';
 		
     	return view('pages/home', $data);
@@ -49,8 +49,8 @@ class Home extends BaseController
     public function aboutus()
     {
         $data['title'] = trans('About Us');
-		$data['meta_title'] = !empty(get_seo('About Us')) ? get_seo('About Us')->meta_title : 'About Us | Find My Groomer';
-		$data['meta_desc'] = !empty(get_seo('About Us')) ? get_seo('About Us')->meta_description : "From mobile to traditional groomers, Find My Groomers helps you connect with expert dog groomers in Las Vegas. Give your pet the care they deserve today!";
+		$data['meta_title'] = !empty(get_seo('About Us')) ? get_seo('About Us')->meta_title : 'About Us | Find My Law Firm';
+		$data['meta_desc'] = !empty(get_seo('About Us')) ? get_seo('About Us')->meta_description : "From mobile to traditional law firms, Find My Law Firms helps you connect with expert law firms in Las Vegas.";
 		$data['meta_keywords'] = !empty(get_seo('About Us')) ? get_seo('About Us')->meta_keywords : '';
     	return view('pages/aboutus', $data);
     }
@@ -58,7 +58,7 @@ class Home extends BaseController
     public function faq()
     {
         $data['title'] = trans('F.A.Qs');
-		$data['meta_title'] = !empty(get_seo('FAQ')) ? get_seo('FAQ')->meta_title : 'FAQs | Find My Groomer';
+		$data['meta_title'] = !empty(get_seo('FAQ')) ? get_seo('FAQ')->meta_title : 'FAQs | Find My Law Firm';
 		$data['meta_desc'] = !empty(get_seo('FAQ')) ? get_seo('FAQ')->meta_description : "";
 		$data['meta_keywords'] = !empty(get_seo('FAQ')) ? get_seo('FAQ')->meta_keywords : '';
     	return view('pages/faq', $data);
@@ -67,8 +67,8 @@ class Home extends BaseController
     public function howitworks()
     {
         $data['title'] = trans('How it works');
-		$data['meta_title'] = !empty(get_seo('How It Works')) ? get_seo('How It Works')->meta_title : 'How it works | Find My Groomer';
-		$data['meta_desc'] = !empty(get_seo('How It Works')) ? get_seo('How It Works')->meta_description : "From mobile to traditional groomers, Find My Groomers helps you connect with expert dog groomers in Las Vegas. Give your pet the care they deserve today!";
+		$data['meta_title'] = !empty(get_seo('How It Works')) ? get_seo('How It Works')->meta_title : 'How it works | Find My Law Firm';
+		$data['meta_desc'] = !empty(get_seo('How It Works')) ? get_seo('How It Works')->meta_description : "From mobile to traditional law firms, Find My Law Firms helps you connect with expert law firms in Las Vegas.";
 		$data['meta_keywords'] = !empty(get_seo('How It Works')) ? get_seo('How It Works')->meta_keywords : '';
         return view('pages/howitworks', $data);
     }
@@ -76,7 +76,7 @@ class Home extends BaseController
     public function terms()
     {
         $data['title'] = trans('Terms');
-		$data['meta_title'] = !empty(get_seo('Terms and Conditions')) ? get_seo('Terms and Conditions')->meta_title : 'Terms | Find My Groomer';
+		$data['meta_title'] = !empty(get_seo('Terms and Conditions')) ? get_seo('Terms and Conditions')->meta_title : 'Terms | Find My Law Firm';
 		$data['meta_desc'] = !empty(get_seo('Terms and Conditions')) ? get_seo('Terms and Conditions')->meta_description : "";
 		$data['meta_keywords'] = !empty(get_seo('Terms and Conditions')) ? get_seo('Terms and Conditions')->meta_keywords : '';
         return view('pages/terms', $data);
@@ -85,7 +85,7 @@ class Home extends BaseController
     public function privacy()
     {
         $data['title'] = trans('Privacy Policy');
-		$data['meta_title'] = !empty(get_seo('Privacy Policy')) ? get_seo('Privacy Policy')->meta_title : 'Privacy Policy | Find My Groomer';
+		$data['meta_title'] = !empty(get_seo('Privacy Policy')) ? get_seo('Privacy Policy')->meta_title : 'Privacy Policy | Find My Law Firm';
 		$data['meta_desc'] = !empty(get_seo('Privacy Policy')) ? get_seo('Privacy Policy')->meta_description : '';
 		$data['meta_keywords'] = !empty(get_seo('Privacy Policy')) ? get_seo('Privacy Policy')->meta_keywords : '';
         return view('pages/privacy', $data);
@@ -94,7 +94,7 @@ class Home extends BaseController
     public function testimonials()
     {
         $data['title'] = trans('Testimonials');
-		$data['meta_title'] = !empty(get_seo('Testimonials')) ? get_seo('Testimonials')->meta_title : 'Testimonials | Find My Groomer';
+		$data['meta_title'] = !empty(get_seo('Testimonials')) ? get_seo('Testimonials')->meta_title : 'Testimonials | Find My Law Firm';
 		$data['meta_desc'] = !empty(get_seo('Testimonials')) ? get_seo('Testimonials')->meta_description : '';
 		$data['meta_keywords'] = !empty(get_seo('Testimonials')) ? get_seo('Testimonials')->meta_keywords : '';
         return view('pages/testimonials', $data);
@@ -105,7 +105,7 @@ class Home extends BaseController
         $data['title'] = trans('Blog');
         $this->BlogModel = new BlogModel();
 		$data['blogs'] = $this->BlogModel->get_all_blog();
-		$data['meta_title'] = !empty(get_seo('Blog')) ? get_seo('Blog')->meta_title : 'Blog | Find My Groomer';
+		$data['meta_title'] = !empty(get_seo('Blog')) ? get_seo('Blog')->meta_title : 'Blog | Find My Law Firm';
 		$data['meta_desc'] = !empty(get_seo('Blog')) ? get_seo('Blog')->meta_description : '';
 		$data['meta_keywords'] = !empty(get_seo('Blog')) ? get_seo('Blog')->meta_keywords : '';
         return view('pages/blog', $data);
@@ -117,7 +117,7 @@ class Home extends BaseController
         $this->BlogModel = new BlogModel();
 		$data['blogs'] = $this->BlogModel->get_all_blog();
 		$data['blog'] = (array)$this->BlogModel->get_blog($clean_url);
-		$data['meta_title'] = !empty(get_seo('Blog')) ? get_seo('Blog')->meta_title : 'Blog | Find My Groomer';
+		$data['meta_title'] = !empty(get_seo('Blog')) ? get_seo('Blog')->meta_title : 'Blog | Find My Law Firm';
 		$data['meta_desc'] = !empty(get_seo('Blog')) ? get_seo('Blog')->meta_description : '';
 		$data['meta_keywords'] = !empty(get_seo('Blog')) ? get_seo('Blog')->meta_keywords : '';
         return view('pages/blog_detail', $data);
@@ -132,7 +132,7 @@ class Home extends BaseController
     public function contact()
     {
         $data['title'] = trans('Contact Us');
-		$data['meta_title'] = !empty(get_seo('Contact Us')) ? get_seo('Contact Us')->meta_title : 'Contact Us | Find My Groomer';
+		$data['meta_title'] = !empty(get_seo('Contact Us')) ? get_seo('Contact Us')->meta_title : 'Contact Us | Find My Law Firm';
 		$data['meta_desc'] = !empty(get_seo('Contact Us')) ? get_seo('Contact Us')->meta_description : '';
 		$data['meta_keywords'] = !empty(get_seo('Contact Us')) ? get_seo('Contact Us')->meta_keywords : '';
         return view('pages/contact', $data);
@@ -152,8 +152,8 @@ class Home extends BaseController
 			$data['premium_trial'] = $this->UsersModel->get_trial(session()->get('vr_sess_user_id'),3);
 		}
 		
-		$data['meta_title'] = !empty(get_seo('Pricing')) ? get_seo('Pricing')->meta_title : 'Mobile dog grooming Las Vegas | Best dog groomers in las vegas';
-		$data['meta_desc'] = !empty(get_seo('Pricing')) ? get_seo('Pricing')->meta_description : "Need Dog Groomers in Las Vegas? Find Them Here - From mobile to traditional groomers, connect with professionals who love your furry friend as much as you do.";
+		$data['meta_title'] = !empty(get_seo('Pricing')) ? get_seo('Pricing')->meta_title : 'Mobile law firms Las Vegas | Best law firms in las vegas';
+		$data['meta_desc'] = !empty(get_seo('Pricing')) ? get_seo('Pricing')->meta_description : "Need law firms in Las Vegas? Find Them Here - From mobile to traditional law firms, connect with professionals.";
 		$data['meta_keywords'] = !empty(get_seo('Pricing')) ? get_seo('Pricing')->meta_keywords : '';
 		
         return view('Providerauth/ProviderPlan', $data);

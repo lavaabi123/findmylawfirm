@@ -110,7 +110,7 @@
                                 <div class="col-6">
                                     <div class="form-group mb-3">
                                         <label><?php echo trans("from_name"); ?><span class="required"> *</span></label>
-                                        <input type="text" name="from_name" id="from_name" class="form-control auth-form-input" placeholder="<?php echo trans("from_name"); ?>" value="<?php echo $loggeduser->fullname.' | Find My Groomer'; ?>" required>
+                                        <input type="text" name="from_name" id="from_name" class="form-control auth-form-input" placeholder="<?php echo trans("from_name"); ?>" value="<?php echo $loggeduser->fullname.' | Find My Law Firm'; ?>" required>
                                     </div>
                                 </div>
                             </div>

@@ -119,7 +119,7 @@ class Providers extends BaseController
 		}
 		$data['title'] = trans('Profile');
 		
-		$data['meta_title'] = !empty(get_seo('Profile')) ? get_seo('Profile')->meta_title : 'Profile | Find My Groomer';
+		$data['meta_title'] = !empty(get_seo('Profile')) ? get_seo('Profile')->meta_title : 'Profile | Find My Law Firm';
 		$data['meta_desc'] = !empty(get_seo('Profile')) ? get_seo('Profile')->meta_description : '';
 		$data['meta_keywords'] = !empty(get_seo('Profile')) ? get_seo('Profile')->meta_keywords : '';
 		
@@ -140,7 +140,7 @@ class Providers extends BaseController
 		$data['user_photos'] = $this->UsersModel->get_user_photos($userId,$data['user_detail']->plan_id);
 		$name = !empty($data['user_detail']->business_name) ? $data['user_detail']->business_name : $data['user_detail']->fullname ;
 		$data['title'] = trans('Photos of '.$name);
-		$data['meta_title'] = !empty(get_seo('Gallery')) ? get_seo('Gallery')->meta_title : 'Gallery | Find My Groomer';
+		$data['meta_title'] = !empty(get_seo('Gallery')) ? get_seo('Gallery')->meta_title : 'Gallery | Find My Law Firm';
 		$data['meta_desc'] = !empty(get_seo('Gallery')) ? get_seo('Gallery')->meta_description : '';
 		$data['meta_keywords'] = !empty(get_seo('Gallery')) ? get_seo('Gallery')->meta_keywords : '';
     	return view('Providers/ProviderGallery', $data);
@@ -271,9 +271,9 @@ class Providers extends BaseController
 		$data['category'] = $category;
 		
 		
-		$data['meta_title'] = !empty(get_seo('Find a Groomer')) ? get_seo('Find a Groomer')->meta_title : 'Groomers las vegas | Dog groomers in las vegas';
-		$data['meta_desc'] = !empty(get_seo('Find a Groomer')) ? get_seo('Find a Groomer')->meta_description : "Find the perfect dog groomers in Las Vegas with Find My Groomers' extensive listings. From mobile to the best in town, we've got you covered!";
-		$data['meta_keywords'] = !empty(get_seo('Find a Groomer')) ? get_seo('Find a Groomer')->meta_keywords : '';
+		$data['meta_title'] = !empty(get_seo('Find a Law Firm')) ? get_seo('Find a Law Firm')->meta_title : 'Groomers las vegas | Dog law firms in las vegas';
+		$data['meta_desc'] = !empty(get_seo('Find a Law Firm')) ? get_seo('Find a Law Firm')->meta_description : "Find the perfect law firms in Las Vegas with Find My Law Firms' extensive listings. From mobile to the best in town, we've got you covered!";
+		$data['meta_keywords'] = !empty(get_seo('Find a Law Firm')) ? get_seo('Find a Law Firm')->meta_keywords : '';
 		
 		if((($uri->getTotalSegments() == 4 && $uri->getSegment(4) != '') ) || (!empty($_GET) && !empty($_GET['category']))){
 			return view('Providers/Providers', $data);

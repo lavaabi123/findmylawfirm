@@ -411,9 +411,9 @@ class Common extends BaseController
 			'to' => get_general_settings()->mail_reply_to,
             'template_path'     => "email/admin/new_user",
         );
-		$message_cus        = "<p>Dear ".$name.",</p><p>Thank you for choosing <a href='".base_url()."'>FindMyGroomer.com!</a> Your message has been received, and we are pleased to confirm that your designated groomer, ".$user_detail->business_name.", will be in touch with you shortly. They will address any questions you may have, discuss your grooming needs, and finalize the details to ensure a seamless grooming experience for your furry friend.</p><p>Thank you!</p>";
+		$message_cus        = "<p>Dear ".$name.",</p><p>Thank you for choosing <a href='".base_url()."'>FindMyLawFirm.com!</a> Your message has been received, and we are pleased to confirm that your designated law firm, ".$user_detail->business_name.", will be in touch with you shortly. They will address any questions you may have, discuss your law needs, and finalize the details to ensure a seamless law experience.</p><p>Thank you!</p>";
 		$data_customer = array(
-            'subject'           => "Message Received - FindMyGroomer.com",//$subject,
+            'subject'           => "Message Received - FindMyLawFirm.com",//$subject,
             'message_text'      => $message_cus,
 			'from_email' => get_general_settings()->mail_reply_to,
 			'to' => $email,

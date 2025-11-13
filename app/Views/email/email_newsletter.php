@@ -431,7 +431,7 @@
                             <tr>
                                 <td class="content-block powered-by">
                                     <span class="apple-link"><?php echo html_escape(get_general_settings()->contact_address); ?></span><br>
-                                    <span><b>Copyright &copy; <?php echo date("Y"); ?> <a href="<?php echo base_url(); ?>">Find My Groomer</a>.</b> All rights reserved.</span>
+                                    <span><b>Copyright &copy; <?php echo date("Y"); ?> <a href="<?php echo base_url(); ?>">Find My Law Firm</a>.</b> All rights reserved.</span>
                                 </td>
                             </tr>
                             <?php if (empty($type) && !empty($subscriber)) : ?>

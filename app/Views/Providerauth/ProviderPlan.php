@@ -8,7 +8,7 @@
 			<h3 class="title-lg text-black mb-2"><?php echo $title; ?></h3>
 			<p class="text-grey">Now it’s time to select the plan that’s right for you.</p>
 		</div>
-		<div class="container">
+		<div class="container max-1170">
 			<div class="row row-cols-1 row-cols-md-2 mb-3 gx-md-5 text-center package">
 			  <div class="col">
 				<div class="card mb-4 rounded-5 shadow-sm">
@@ -16,7 +16,7 @@
 					<h4 class="my-0 fw-normal">Get Seen</h4>
 				  </div>
 				  <div class="card-body px-3 px-xl-5 pb-xl-5">
-					<h3 class="card-title title-xl text-black py-2 py-xl-4">Standard<br/>$19.99<small class="text-body-secondary fw-light">/mo</small></h3>
+					<h3 class="card-title title-lg lh-1 py-2 py-xl-4">Standard<br/>$19.99<small class="text-body-secondary fw-light">/mo</small></h3>
 					<?php if(!empty($user_plan_details) && $user_plan_details->plan_id == 2){  ?>					
 					<a href="javascript:void(0);" class="w-100 btn btn-black btn-lg py-3 py-xl-4">Active</a>
 					<a></a>
@@ -68,7 +68,7 @@
 					<h4 class="my-0 fw-normal">Best Results</h4>
 				  </div>
 				  <div class="card-body px-3 px-xl-5 pb-xl-5">
-					<h3 class="card-title title-xl text-black py-2 py-xl-4">Premium<br/>$29.99<small class="text-body-secondary fw-light">/mo</small></h3>
+					<h3 class="card-title title-lg lh-1 py-2 py-xl-4">Premium<br/>$29.99<small class="text-body-secondary fw-light">/mo</small></h3>
 					<?php if(!empty($user_plan_details) && $user_plan_details->plan_id == 3){  ?>					
 					<a href="javascript:void(0);" class="w-100 btn btn-lg yellowbtn py-3 py-xl-4">Active</a>
 					<a></a>

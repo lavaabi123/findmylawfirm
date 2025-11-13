@@ -69,15 +69,15 @@ class CronController extends BaseController
 	public function sendReminderEmail($users){
 		if(!empty($users)){
 			foreach($users as $user){
-				$message = '<p>Find My Groomer will deduct payment for your subscription after 3 days as your trial ends.</p>';
+				$message = '<p>Find My Law Firm will deduct payment for your subscription after 3 days as your trial ends.</p>';
 				$subject = 'Processing subscriptions';
 				$data = array(
 							'subject'           => $subject,
 							'template_path' 	=> "email/trial_end_reminder",
 							//'mail_body_content' => $message,
 							'to'                => $user->email,
-							'from_email'        => "lara@findmygroomer.com",
-							'from_name'         => "Find My Groomer"
+							'from_email'        => "lara@findmylawfirm.com",
+							'from_name'         => "Find My Law Firm"
 							);
 				$emailModel = new EmailModel();
 				$emailModel->send_email($data);
@@ -400,7 +400,7 @@ class CronController extends BaseController
                     'mail_body_content' => $message,
                     'to'                => get_general_settings()->mail_reply_to,
                     'from_email'        => get_general_settings()->admin_email,
-                    'from_name'         => "Find My Groomer - CRON"
+                    'from_name'         => "Find My Law Firm - CRON"
                     );
         $emailModel = new EmailModel();
         $emailModel->send_email($data);
@@ -447,9 +447,9 @@ class CronController extends BaseController
                     'subject'           => $subject,
                     'to_name'           => $data['first_name'],
                     'to'                => $data['email'],
-                    'cc'                => "lara@findmygroomer.com",
-                    'from_email'        => "lara@findmygroomer.com",
-                    'from_name'         => "Find My Groomer",
+                    'cc'                => "lara@findmylawfirm.com",
+                    'from_email'        => "lara@findmylawfirm.com",
+                    'from_name'         => "Find My Law Firm",
                     'template_path'     => "email/email_subscription_failed",
                     'subscriptions'     => $subscriptions,
                     'cards'             => $cards,
@@ -559,7 +559,7 @@ class CronController extends BaseController
 					}
 					
 					$data['to_name'] = !empty($user->fullname) ? $user->fullname : 'Groomer';
-					$data['subject'] = $data['to_name']." - Last Week's Snapshot on your FindMyGroomer profile";
+					$data['subject'] = $data['to_name']." - Last Week's Snapshot on your FindMyLawFirm profile";
 					$data['to'] = $user->email;
 					$data['template_path'] = "email/weekly_report";
 					
@@ -625,7 +625,7 @@ class CronController extends BaseController
 		if(!empty($users)){
 			foreach ($users as $user) {
 				if(!empty($user->email)){						
-					$data['subject'] = "Find My Groomer - Reminder for Optimization";
+					$data['subject'] = "Find My Law Firm - Reminder for Optimization";
 					$data['to'] = $user->email;
 					$data['to_name'] = !empty($user->fullname) ? $user->fullname : 'Groomer';
 					$data['message_text'] = '<h5 style="text-align:center;">Hello, '.$user->fullname.'</h5><p style="color: #000000; font-size:11px;text-align:center; margin-bottom: 5px;">We are requesting you to complete your profile by adding Hours, About Us, Photos to appear in searches and get more customers. Thank you!';
@@ -653,13 +653,13 @@ class CronController extends BaseController
 		//echo "<pre>";print_r($users);exit;
 		if(!empty($users)){
 			foreach($users as $user){
-				$subject = 'Complete Your Registration at FindMyGroomer.com';
+				$subject = 'Complete Your Registration at FindMyLawFirm.com';
 				$data = array(
 							'subject'           => $subject,
 							'template_path' 	=> "email/email_cc_reminder",
 							'to'                => $user->email,
-							'from_email'        => "lara@findmygroomer.com",
-							'from_name'         => "Find My Groomer"
+							'from_email'        => "lara@findmylawfirm.com",
+							'from_name'         => "Find My Law Firm"
 							);
 							//echo view('email/email_cc_reminder', $data); exit;
 				$emailModel = new EmailModel();
@@ -690,8 +690,8 @@ class CronController extends BaseController
 					'subject'           => $subject,
 					'template_path' 	=> "email/email_recovery",
 					'to'                => $user->email,
-					'from_email'        => "lara@findmygroomer.com",
-					'from_name'         => "Find My Groomer",
+					'from_email'        => "lara@findmylawfirm.com",
+					'from_name'         => "Find My Law Firm",
 					'recent_searches' 	=>$recent_searches,
 					'recent_connections' =>$recent_connections,							
 				);
