@@ -1348,7 +1348,7 @@ class ProviderDashboard extends ProviderauthController
 						'Content-Type: application/json'
 					));
 					$response = curl_exec($curl);
-					$result = json_decode($response,true);
+					$resultb = json_decode($response,true);
 				}else{
 					// Set your Stripe secret key
 					Stripe\Stripe::setApiKey(env('stripe.secret'));
@@ -1435,7 +1435,7 @@ class ProviderDashboard extends ProviderauthController
 			if(!empty($user_detail->email)){
 				$emailModel = new EmailModel();
 				if(empty($data['user_detail']->stripe_subscription_id)){
-					$emailModel->send_email_activation_confirmed($data["user_detail"]->id);
+					$emailModel->send_email_activation_confirmed($user_detail->id);
 				}
 				$datae = array(	
 					'subject' => "Payment Confirmation",

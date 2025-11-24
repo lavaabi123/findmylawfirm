@@ -293,7 +293,7 @@ label#postcode-error, label#locality-error {
 								<textarea class="form-control required" name="question1"></textarea>
 							</div>
 							<div class="form-group dd">
-								<label class="ques">What Kind Of Pets Do I Have And What Are Their Names?</label>
+								<label class="ques">What Kind Of Services Do I Have And What Are Their Names?</label>
                             </div>
 							<div class="form-group mb-5">
 								<textarea class="form-control required" name="question2"></textarea>
@@ -317,7 +317,7 @@ label#postcode-error, label#locality-error {
     </div>
     <!-- /.login-box -->
 	<script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbBKfGnxtUfSe3EpjdIbaiafOMTvk1rg8&callback=initAutocomplete&libraries=places&v=weekly"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBlF3WSth4x_WhKywzyxnfNTAMCbeSoE4&callback=initAutocomplete&libraries=places&v=weekly"
       defer
     ></script>
 <script>

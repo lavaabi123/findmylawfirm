@@ -481,7 +481,7 @@ label#postcode-error, label#locality-error {
 							<textarea class="form-control required" name="question1"><?php echo $user_detail->question1; ?></textarea>
 						</div>
 						<div class="form-group">							
-								<label>What Kind Of Pets Do I Have And What Are Their Names?</label>
+								<label>What Kind Of Services Do I Have And What Are Their Names?</label>
 								<textarea class="form-control required" name="question2"><?php echo $user_detail->question2; ?></textarea>
 						</div>
 						</div>
@@ -514,7 +514,7 @@ label#postcode-error, label#locality-error {
   </div>
 </div>
 	<script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbBKfGnxtUfSe3EpjdIbaiafOMTvk1rg8&callback=initAutocomplete&libraries=places&v=weekly"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBlF3WSth4x_WhKywzyxnfNTAMCbeSoE4&callback=initAutocomplete&libraries=places&v=weekly"
       defer
     ></script>
         <script type="text/javascript">

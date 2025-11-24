@@ -344,7 +344,7 @@
 													<textarea class="form-control" name="question1"><?php echo old('question1'); ?></textarea>
 												</div>
 												<div class="form-group">							
-														<label>What Kind Of Pets Do I Have And What Are Their Names?</label>
+														<label>What Kind Of Services Do I Have And What Are Their Names?</label>
 														<textarea class="form-control" name="question2"><?php echo old('question2'); ?></textarea>
 												</div>
 											</div>
