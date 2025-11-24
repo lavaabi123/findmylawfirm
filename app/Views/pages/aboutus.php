@@ -42,17 +42,15 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-6 pe-xl-5">
-				<h4 class="title-md">About FindMyLawfirm.org</h4>
-				<h2 class="title-xl fw-900 mb-3 mb-md-4">We make it Easy </br>
-				to make the </br>
-				Best decision!</h2>
+				<h4 class="title-md mb-2">About FindMyLawfirm.org</h4>
+				<h2 class="title-xl fw-900 mb-3 mb-md-4 lh-1">We make it Easy to make the Best decision!</h2>
 				<p>At <a href="<?php echo base_url(); ?>">findmylawfirm.org</a>, our mission is to make the process of finding the right law firm simple, transparent, and trustworthy for individuals and businesses, while helping reputable attorneys connect with clients who truly value their expertise.</p>
 				<p>We’re committed to eliminating the stress and uncertainty that often comes with searching for legal representation. We understand that when legal matters arise, whether personal, professional, or unexpected, having the right law firm by your side can make all the difference. You deserve a legal partner who isn’t just skilled, but genuinely invested in protecting your rights, your interests, and your future.</p>
 				<p>Our platform empowers clients with a seamless way to discover law firms that align with their needs, values, and expectations. It’s more than just finding a lawyer, it’s about finding a trusted advocate who will guide you, communicate clearly, and stand with you every step of the way.</p>
 				<p>At the same time, we support law firms by connecting them with qualified leads, people actively seeking legal help. We aim to foster long-term relationships built on trust, professionalism, and results, helping law firms grow their practice while making a meaningful difference in the lives of their clients.</p>
 			</div>
 			<div class="col-sm-6 text-center">
-				<img src="<?= base_url('assets/frontend/images/abtimg.jpg') ?>" class="img-fluid withShadow">
+				<img src="<?= base_url('assets/frontend/images/abtimg.jpg') ?>" class="img-fluid withShadow mb-4 mb-sm-0">
 				<a href="<?php echo base_url('providers'); ?>" class="btn yellowbtn minbtn btnWicon"><span>Find My Law Firm</span></a>
 			</div>
 		</div>

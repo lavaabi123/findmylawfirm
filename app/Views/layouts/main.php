@@ -190,7 +190,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<?php endif; ?>
 				<?php if (session()->get('vr_sess_logged_in') != TRUE) : ?>
 				  <li class="nav-item d-block d-sm-none">
-					<a class="nav-link fs-7 fw-bold" href="<?php echo base_url('pricing'); ?>">BECOME  A Law Firm</a>
+					<a class="nav-link fs-7 fw-bold text-uppercase" href="<?php echo base_url('pricing'); ?>">Become A Law Firm</a>
 				  </li>
 				<?php endif; ?>
 			</ul>
@@ -326,34 +326,36 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 /* Cookie Dialog */
 #gdpr-cookie-message {
     position: fixed;
-    left: 10px;
-    bottom: 30px;
-    max-width: 375px;
-    background-color: #181719e3;
+    left: 0px;
+    bottom: 0px;
+    max-width: 100%;
+    background-color: #ffffff;
     padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 6px 6px rgba(0,0,0,0.25);
+    border-radius: 0;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.25);
     font-family: system-ui;
     z-index: 999;
+    width: 100%;
 }
 #gdpr-cookie-message h4 {
-    color: #ff6c00;
+    color: #232e4c;
     font-family: 'Quicksand', sans-serif;
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 10px;
 }
 #gdpr-cookie-message h5 {
-    color: #ff6c00;
+    color: #232e4c;
     font-family: 'Quicksand', sans-serif;
     font-size: 15px;
     font-weight: 500;
     margin-bottom: 10px;
 }
 #gdpr-cookie-message p, #gdpr-cookie-message ul {
-    color: white;
+    color: #000000;
     font-size: 15px;
     line-height: 1.5em;
+	margin-bottom:0;
 }
 #gdpr-cookie-message p:last-child {
     margin-bottom: 0;
@@ -364,7 +366,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     display: inline-block;
 }
 #gdpr-cookie-message a {
-    color: #ff6c00;
+    color: #232e4c;
     text-decoration: none;
     font-size: 15px;
     padding-bottom: 2px;
@@ -372,14 +374,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     transition: all 0.3s ease-in;
 }
 #gdpr-cookie-message a:hover {
-    color: white;
-    border-bottom-color: #ff6c00;
+    color: #000000;
+    border-bottom-color: #232e4c;
     transition: all 0.3s ease-in;
 }
 #gdpr-cookie-message button,
 button#ihavecookiesBtn {
     border: none;
-    background: #ff6c00;
+    background: #232e4c;
     color: white;
     font-family: 'Quicksand', sans-serif;
     font-size: 15px;
@@ -391,12 +393,14 @@ button#ihavecookiesBtn {
 }
 #gdpr-cookie-message button:hover {
     background: white;
-    color: #ff6c00;
+    color: #232e4c;
     transition: all 0.3s ease-in;
+	box-shadow: 0 0 0 1px #232e4c inset;
 }
 button#gdpr-cookie-advanced {
     background: white;
-    color: #ff6c00;
+    color: #232e4c;
+	box-shadow: 0 0 0 1px #232e4c inset;
 }
 #gdpr-cookie-message button:disabled {
     opacity: 0.3;
@@ -455,7 +459,7 @@ button#gdpr-cookie-advanced {
 	</script>
 	<?php if($uri->getTotalSegments() >= env('urlsegment') && ($uri->getSegment(env('urlsegment')) == 'checkout' || $uri->getSegment(env('urlsegment')) == 'update-card'  || $uri->getSegment(env('urlsegment')) == 'billing')) { ?>
 		<script src="https://js.stripe.com/v3/" ></script>
-		<script src="<?php echo base_url(); ?>/assets/frontend/js/charge.js"></script>
+		<script src="<?php echo base_url(); ?>/assets/frontend/js/charge.js?v=1.0"></script>
 	<?php } ?>
 	
 <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/owlcarousel/assets/owl.carousel.min.css">
